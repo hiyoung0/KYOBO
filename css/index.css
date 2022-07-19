@@ -45,13 +45,11 @@ a {
 .top_head {
   width: 100%;
   height: 140px;
-  background-color: pink;
 }
 .top_head .top {
   width: 960px;
   height: 140px;
   margin: 0 auto;
-  background-color: skyblue;
 }
 .top_head .top .nav {
   height: 30px;
@@ -101,4 +99,162 @@ a {
 }
 .top_head .top .logo_main {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.top_head .top .logo_main .search .wordlist {
+  width: 500px;
+  display: flex;
+}
+.top_head .top .logo_main .search .wordlist ul {
+  display: flex;
+  margin-left: 100px;
+  font-size: 12px;
+}
+.top_head .top .logo_main .search .wordlist a:nth-of-type(1) {
+  margin-left: 100px;
+}
+.top_head .top .logo_main .search .searchbar {
+  width: 500px;
+  background-color: #fff;
+  border: 2px solid rgb(118, 139, 228);
+  border-radius: 30px;
+  overflow: hidden;
+}
+.top_head .top .logo_main .search .searchbar input {
+  border: none;
+  width: 450px;
+  height: 42px;
+  padding: 10px 10px 10px 25px;
+}
+.top_head .top .logo_main .search .searchbar input::-moz-placeholder {
+  color: rgb(118, 139, 228);
+  font-weight: bold;
+}
+.top_head .top .logo_main .search .searchbar input:-ms-input-placeholder {
+  color: rgb(118, 139, 228);
+  font-weight: bold;
+}
+.top_head .top .logo_main .search .searchbar input::placeholder {
+  color: rgb(118, 139, 228);
+  font-weight: bold;
+}
+.top_head .top .logo_main .search .searchbar input:focus {
+  outline: none;
+}
+.top_head .top .logo_main .search .searchbar i {
+  color: rgb(118, 139, 228);
+  font-size: 18px;
+}
+.top_head .top .ad {
+  position: relative;
+}
+.top_head .top .ad .list_button {
+  font-size: 12px;
+  position: absolute;
+  bottom: 2px;
+  right: 0;
+}
+
+.main_list {
+  width: 100%;
+  height: 50px;
+  background-color: #5e6b9e;
+}
+.main_list .container {
+  width: 960px;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.main_list .container .item1 {
+  color: #bfc4dc;
+}
+.main_list .container .item1 a {
+  color: #fff;
+  font-weight: bold;
+}
+.main_list .container .item1 li {
+  padding-top: 13px;
+  padding-left: 11px;
+  padding-bottom: 13px;
+  padding-right: 11px;
+  height: 50px;
+  float: left;
+}
+.main_list .container .item1 li:nth-of-type(1) {
+  background-color: #353f67;
+  color: #fff;
+  cursor: pointer;
+  font-size: 22px;
+  padding-top: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.main_list .container .item1 li:nth-of-type(9) {
+  font-size: 22px;
+  cursor: pointer;
+  padding-top: 9px;
+  padding-left: 18px;
+  padding-right: 40px;
+}
+.main_list .container .item1 .ebook:hover {
+  background-color: #fff;
+  color: #353f67;
+  border: 1px solid #5e6b9e;
+  cursor: pointer;
+}
+.main_list .container .item1 .ebook:hover i {
+  transform: rotate(180deg);
+}
+.main_list .container .item1 .ebook:hover a {
+  color: #353f67;
+}
+.main_list .container .item1 .gift:hover {
+  background-color: #fff;
+  color: #353f67;
+  border: 1px solid #5e6b9e;
+  cursor: pointer;
+}
+.main_list .container .item1 .gift:hover i {
+  transform: rotate(180deg);
+}
+.main_list .container .item1 .gift:hover a {
+  color: #353f67;
+}
+.main_list .container .item1 .album:hover {
+  background-color: #fff;
+  color: #353f67;
+  border: 1px solid #5e6b9e;
+  cursor: pointer;
+}
+.main_list .container .item1 .album:hover i {
+  transform: rotate(180deg);
+}
+.main_list .container .item1 .album:hover a {
+  color: #353f67;
+}
+.main_list .container .item1 .plus:hover {
+  background-color: #fff;
+  color: #353f67;
+  border: 1px solid #5e6b9e;
+  cursor: pointer;
+}
+.main_list .container .item2 {
+  color: #bfc4dc;
+  font-size: 13px;
+  font-weight: bold;
+}
+.main_list .container .item2 a {
+  color: #bfc4dc;
+}
+.main_list .container .item2 li {
+  float: left;
+  padding-top: 15px;
+}
+.main_list .container .item2 .underline:hover a {
+  color: #fff;
+  text-decoration: underline;
 }
