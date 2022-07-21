@@ -144,7 +144,7 @@ a {
                             size:12px;
                         }
                     }
-                    a:nth-of-type(1){
+                    .bt_margin{
                         margin: {
                             left:100px;
                         }
@@ -573,5 +573,207 @@ a {
     .main_both {
         width:950px;
         margin:0 auto;
+        position:relative;
+
+        .box_wellcome_kyobo {
+            width:634px;
+            height:355px;
+            margin: {
+                top:50px;
+            }
+
+            h2 {
+                float:left;
+                font: {
+                    size:16px;
+                    weight:bold;
+                }
+                margin: {
+                    right:25px;
+                }
+            }
+            h2:hover {
+                a {
+                    color:#3c5fdf;
+                    text-decoration:underline;
+                }
+            }
+
+            .mini {
+                font: {
+                    size:12px;
+                }
+                h3 {
+                    display:inline-block;
+                    padding:2px 5px 2px;
+                }
+                a:nth-of-type(1) {
+                   h3 { 
+                    background-color:#9cafe9;
+                    color:#fff;
+                   }
+                }
+                
+                h3:hover {
+                    background-color:#9cafe9;
+                    color:#fff;
+                }
+            }
+
+            .section_first {
+                .change {
+                    margin: {
+                        top:20px;
+                    }
+                    width:634px;
+                    height:320px;
+                    position:relative;
+                    display:flex;
+                    justify-content:space-between;
+                    border: 1px solid #999;
+                    
+                    .change_book {
+                        width:270px;
+                        height:318px;
+                        background-color: #FAFAFA;
+                        overflow:hidden;
+                        position:relative;
+                        
+                        .tap_wellcome_kyobo {
+                            li {
+                                width:114px;
+                                height:172px;
+                                border: 1px solid #999;
+                                position:absolute;
+
+                                img {
+                                    width:112px;
+                                    height:170px;
+                                }
+                                transition: all 0.2s linear;
+                            }
+                            
+                            .book_1 {
+                                z-index:3;
+                                top:40px;
+                                left:75px;
+                            }
+                            .book_2 {
+                                width:82px;
+                                height:122px;
+                                opacity:0.7;
+                                img {
+                                    width:80px;
+                                    height:120px;
+                                }
+                                top:70px;
+                                right:15px;
+                            }
+                            .book_2:hover {
+                                opacity:1;
+                                transform:translateX(1.7px);
+                            }
+                            .book_3 {
+                                width:82px;
+                                height:122px;
+                                opacity:0.7;
+                                img {
+                                    width:80px;
+                                    height:120px;
+                                }
+                                top:70px;
+                                left:15px;
+                            }
+                            .book_3:hover {
+                                opacity:1;
+                                transform:translateX(-1.7px);
+                            }
+                        }
+                    }
+                    
+                    .card_news {
+                        width:362px;
+                        height:318px;
+                        overflow:hidden;
+
+                        .card_ad {
+                            width:2200px;
+                            li {
+                                float:left;
+                                img {
+                                    width:362px;
+                                    height:318px;
+                                }
+                            }
+                        }
+                    }
+
+                    .change_title {
+                        width:632px;
+                        height:54px;
+                        background-color: rgba(94,107,158,0.8);
+                        position:absolute;
+                        bottom:0;
+                        color:#fff;
+                        
+                        .card_news_title {
+                            float:left;
+                            padding: {
+                                top:16px;
+                                left:12px;
+                                right:14px;
+                            }
+                            font: {
+                                size:14px;
+                            }
+                            a {
+                                color:#fff;
+                            }
+                            a:hover {
+                                text-decoration:underline;
+                            }
+                        }
+
+                        .card_news_author {
+                            font: {
+                                size:11px;
+                            }
+                            padding: {
+                                top:18px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .best_ad {
+            width:302px;
+            height:320px;
+            border:1px solid #dadada;
+            position:absolute;
+            top:0;
+            right:0;
+            margin: {
+                top:42px;
+            }
+
+            .day_ad_top {
+                width:302px;
+                height:210px;
+                border: {
+                    bottom:1px solid #dadada;
+                }
+            }
+            .day_ad_bottom {
+                width:302px;
+                height:110px;
+
+                img {
+                    width:268px;
+                    height:108px;
+                }
+            }
+        }
     }
 }
