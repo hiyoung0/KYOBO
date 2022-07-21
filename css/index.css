@@ -264,10 +264,188 @@ a {
   height: 430px;
   background-color: rgb(230, 233, 246);
   padding: 30px;
+  border-bottom: 1px solid #dadada;
 }
 .bg_wellcome_1 .content_top {
   width: 950px;
   height: 370px;
+  position: relative;
+  margin: 0 auto;
+}
+.bg_wellcome_1 .content_top .mainEvent1 {
+  width: 720px;
+  height: 300px;
+}
+.bg_wellcome_1 .content_top .mainEvent1 .title_text img {
+  vertical-align: top;
+}
+.bg_wellcome_1 .content_top .mainEvent1 .link_book {
+  display: inline-block;
+  width: 175px;
+  height: 310px;
+  text-align: center;
+  padding: 30px 12px 0;
+}
+.bg_wellcome_1 .content_top .mainEvent1 .link_book img {
+  width: 129px;
+  height: 182px;
+  border: 1px solid #999;
+}
+.bg_wellcome_1 .content_top .mainEvent1 .link_book strong {
+  display: block;
+  font-size: 11px;
+  line-height: 16px;
+  height: 32px;
+  margin-top: 13px;
+}
+.bg_wellcome_1 .content_top .mainEvent1 .link_book span {
+  display: block;
+  font-size: 11px;
+  color: #777;
+  margin-top: 4px;
+}
+.bg_wellcome_1 .content_top .mainEvent1 .link_book:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.bg_wellcome_1 .content_top .category {
+  width: 720px;
+  height: 38px;
+  position: absolute;
+  bottom: 0;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #fff;
+}
+.bg_wellcome_1 .content_top .category li {
+  float: left;
+  width: 103px;
+  height: 38px;
+  text-align: center;
+  padding-top: 8px;
+  border: 1px solid #d7d7d7;
+}
+.bg_wellcome_1 .content_top .category li:nth-of-type(1) {
   background-color: #5e6b9e;
+  border-top: 3px solid #353f67;
+}
+.bg_wellcome_1 .content_top .category li:nth-of-type(1) a {
+  color: #fff;
+}
+.bg_wellcome_1 .content_top .category li:nth-of-type(7) {
+  width: 102px;
+}
+.bg_wellcome_1 .content_top .bookcast {
+  width: 220px;
+  height: 370px;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid #d7d7d7;
+  text-align: center;
+  padding-top: 15px;
+}
+.bg_wellcome_1 .content_top .bookcast h2 {
+  margin-bottom: 13px;
+}
+.bg_wellcome_1 .content_top .bookcast .box1 {
+  width: 195px;
+  height: 180px;
+  margin: 0 auto;
+  margin-bottom: 14px;
+  border-bottom: 1px solid #dadada;
+}
+.bg_wellcome_1 .content_top .bookcast .box1 .imgbox {
+  width: 193px;
+  height: 112px;
+  overflow: hidden;
+  border: 1px solid #dadada;
+}
+.bg_wellcome_1 .content_top .bookcast .box1 .imgbox img {
+  width: 193px;
+  margin-top: -38px;
+  transition: transform 0.3s linear;
+}
+.bg_wellcome_1 .content_top .bookcast .box1 .title {
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+.bg_wellcome_1 .content_top .bookcast .box1 .summary {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #777;
+}
+.bg_wellcome_1 .content_top .bookcast .box1:hover .carimg {
+  transform: scale(1.05);
+}
+.bg_wellcome_1 .content_top .bookcast .box1:hover .title a {
+  text-decoration: underline;
+}
+.bg_wellcome_1 .content_top .bookcast .bookcast_list {
+  font-size: 12px;
+  text-align: left;
+  width: 193px;
+  margin: 0 auto;
+}
+.bg_wellcome_1 .content_top .bookcast .bookcast_list li {
+  line-height: 1.7em;
+}
+.bg_wellcome_1 .content_top .bookcast .bookcast_list li img {
+  margin-right: 6px;
+  margin-left: 5px;
+}
+.bg_wellcome_1 .content_top .bookcast .bookcast_list li a {
+  color: #777;
+}
+.bg_wellcome_1 .content_top .bookcast .bookcast_list li:hover a {
+  text-decoration: underline;
+}
+
+.bg_wellcome_2 {
+  width: 100%;
+  height: 130px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #dadada;
+}
+.bg_wellcome_2 .adlist {
+  width: 950px;
+  margin: 0 auto;
+}
+.bg_wellcome_2 .adlist .ad_wellcome01 {
+  float: left;
+  width: 316px;
+  height: 128px;
+}
+.bg_wellcome_2 .adlist .ad_wellcome01:nth-of-type(2) {
+  border-left: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  width: 318px;
+}
+
+.bg_wellcome_3 {
+  width: 100%;
+  height: 56px;
+  border-bottom: 1px solid #dadada;
+}
+.bg_wellcome_3 .bnlist {
+  width: 950px;
+  margin: 0 auto;
+}
+.bg_wellcome_3 .bnlist .ad_wellcome02 {
+  float: left;
+}
+.bg_wellcome_3 .bnlist .ad_wellcome02:nth-of-type(2) {
+  border-left: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  width: 318px;
+}
+
+.content_middle {
+  width: 100%;
+}
+.content_middle .main_both {
+  width: 950px;
   margin: 0 auto;
 }
