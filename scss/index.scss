@@ -606,6 +606,9 @@ a {
                 h3 {
                     display:inline-block;
                     padding:2px 5px 2px;
+                    margin: {
+                        right:5px;
+                    }
                 }
                 a:nth-of-type(1) {
                    h3 { 
@@ -772,6 +775,130 @@ a {
                 img {
                     width:268px;
                     height:108px;
+                }
+            }
+        }
+    }
+}
+
+.new_book {
+    width:100%;
+
+    .sub_both {
+        width:950px;
+        margin:50px auto 0;
+
+        .box_kyobo {
+            h2 {
+                float:left;
+                font: {
+                    size:16px;
+                    weight:bold;
+                }
+                margin: {
+                    right:25px;
+                }
+            }
+            h2:hover {
+                a {
+                    color:#3c5fdf;
+                    text-decoration:underline;
+                }
+            }
+
+            .mini_kb {
+                font: {
+                    size:12px;
+                }
+                h3 {
+                    display:inline-block;
+                    padding:2px 5px 2px;
+                    margin: {
+                        right:5px;
+                    }
+                }
+                a:nth-of-type(1) {
+                   h3 { 
+                    background-color:#9cafe9;
+                    color:#fff;
+                   }
+                }
+                
+                h3:hover {
+                    background-color:#9cafe9;
+                    color:#fff;
+                }
+            }
+
+            .new_book_kblist1 {
+                width:950px;
+                height:309px;
+                display:flex;
+                align-items:center;
+                justify-content:space-between;
+                margin: {
+                    top:10px;
+                }
+
+                .kblist {
+                    width:220px;
+                    height:300px;
+                    border:1px solid #dadada;
+                    padding:25px 25px 0;
+                    text-align:center;
+                    transition:border-color 0.2s linear;
+
+                    img {
+                        border:1px solid #888;
+                    }
+
+                    .group {
+                        font: {
+                            size:11px;
+                        }
+                        color:#3e74ab;
+                        padding: {
+                            top:10px;
+                        }
+                    }
+                    .kblist_title {
+                        &1 {
+                            font: {
+                                size:12px;
+                            }
+                            padding: {
+                                top:10px;
+                            }
+                        }
+                        &2 {
+                            font: {
+                                size:12px;
+                            }
+                            padding: {
+                                top:10px;
+                            }
+                        }
+                        &3 {
+                            font: {
+                                size:12px;
+                            }
+                            padding: {
+                                top:10px;
+                            }
+                        }
+                        &4 {
+                            font: {
+                                size:12px;
+                            }
+                            padding: {
+                                top:10px;
+                            }
+                        }
+                    }
+                }
+                .kblist:hover {
+                    border:5px solid #5e6b9e;
+                    padding:21px 21px 0;
                 }
             }
         }

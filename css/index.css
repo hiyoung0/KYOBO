@@ -471,6 +471,7 @@ a {
 .content_middle .main_both .box_wellcome_kyobo .mini h3 {
   display: inline-block;
   padding: 2px 5px 2px;
+  margin-right: 5px;
 }
 .content_middle .main_both .box_wellcome_kyobo .mini a:nth-of-type(1) h3 {
   background-color: #9cafe9;
@@ -603,4 +604,82 @@ a {
 .content_middle .main_both .best_ad .day_ad_bottom img {
   width: 268px;
   height: 108px;
+}
+
+.new_book {
+  width: 100%;
+}
+.new_book .sub_both {
+  width: 950px;
+  margin: 50px auto 0;
+}
+.new_book .sub_both .box_kyobo h2 {
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+.new_book .sub_both .box_kyobo h2:hover a {
+  color: #3c5fdf;
+  text-decoration: underline;
+}
+.new_book .sub_both .box_kyobo .mini_kb {
+  font-size: 12px;
+}
+.new_book .sub_both .box_kyobo .mini_kb h3 {
+  display: inline-block;
+  padding: 2px 5px 2px;
+  margin-right: 5px;
+}
+.new_book .sub_both .box_kyobo .mini_kb a:nth-of-type(1) h3 {
+  background-color: #9cafe9;
+  color: #fff;
+}
+.new_book .sub_both .box_kyobo .mini_kb h3:hover {
+  background-color: #9cafe9;
+  color: #fff;
+}
+.new_book .sub_both .box_kyobo .new_book_kblist1 {
+  width: 950px;
+  height: 309px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.new_book .sub_both .box_kyobo .new_book_kblist1 .kblist {
+  width: 220px;
+  height: 300px;
+  border: 1px solid #dadada;
+  padding: 25px 25px 0;
+  text-align: center;
+  transition: border-color 0.2s linear;
+}
+.new_book .sub_both .box_kyobo .new_book_kblist1 .kblist img {
+  border: 1px solid #888;
+}
+.new_book .sub_both .box_kyobo .new_book_kblist1 .kblist .group {
+  font-size: 11px;
+  color: #3e74ab;
+  padding-top: 10px;
+}
+.new_book .sub_both .box_kyobo .new_book_kblist1 .kblist .kblist_title1 {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.new_book .sub_both .box_kyobo .new_book_kblist1 .kblist .kblist_title2 {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.new_book .sub_both .box_kyobo .new_book_kblist1 .kblist .kblist_title3 {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.new_book .sub_both .box_kyobo .new_book_kblist1 .kblist .kblist_title4 {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.new_book .sub_both .box_kyobo .new_book_kblist1 .kblist:hover {
+  border: 5px solid #5e6b9e;
+  padding: 21px 21px 0;
 }
