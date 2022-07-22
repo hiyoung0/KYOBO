@@ -97,3 +97,45 @@ $.ajax({
 
     });
 
+
+
+
+ //.sample_kyobo
+ $.ajax({
+    method: "GET",
+    url: "https://dapi.kakao.com/v3/search/book?target=title",
+    data: { query: "헤어질 결심" },
+    headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+})
+    .done(function (msg) {
+
+        $(".sample_box1").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+        $(".splist_title1").append(msg.documents[0].title);
+
+    });
+
+$.ajax({
+    method: "GET",
+    url: "https://dapi.kakao.com/v3/search/book?target=title",
+    data: { query: "역행자" },
+    headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+})
+    .done(function (msg) {
+
+        $(".sample_box2").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+        $(".splist_title2").append(msg.documents[0].title);
+
+    });
+
+$.ajax({
+    method: "GET",
+    url: "https://dapi.kakao.com/v3/search/book?target=title",
+    data: { query: "불편한 편의점" },
+    headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+})
+    .done(function (msg) {
+
+        $(".sample_box3").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+        $(".splist_title3").append(msg.documents[0].title);
+
+    });

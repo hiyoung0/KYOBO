@@ -651,7 +651,7 @@ a {
   width: 220px;
   height: 300px;
   border: 1px solid #dadada;
-  padding: 25px 25px 0;
+  padding: 30px 25px 0;
   text-align: center;
   transition: border-color 0.2s linear;
 }
@@ -681,5 +681,129 @@ a {
 }
 .new_book .sub_both .box_kyobo .new_book_kblist1 .kblist:hover {
   border: 5px solid #5e6b9e;
-  padding: 21px 21px 0;
+  padding: 26px 21px 0;
+}
+
+.recommend {
+  width: 100%;
+}
+.recommend .recommend_middle {
+  width: 950px;
+  margin: 50px auto 0;
+}
+.recommend .recommend_middle .recommend_box {
+  width: 950px;
+  height: 406px;
+}
+.recommend .recommend_middle .recommend_box h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.recommend .recommend_middle .recommend_box h2 span {
+  color: #2ac557;
+}
+.recommend .recommend_middle .recommend_box h2 img {
+  vertical-align: middle;
+}
+.recommend .recommend_middle .recommend_box h2:hover a {
+  color: #3c5fdf;
+  text-decoration: underline;
+}
+.recommend .recommend_middle .recommend_box .sample_kyobo {
+  width: 950px;
+  height: 309px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.recommend .recommend_middle .recommend_box .sample_kyobo .not_sample {
+  width: 220px;
+  height: 300px;
+  border: 1px solid #dadada;
+  padding: 20px 25px 0;
+  background-color: #f5f5f5;
+}
+.recommend .recommend_middle .recommend_box .sample_kyobo .not_sample .my_pick {
+  width: 169px;
+}
+.recommend .recommend_middle .recommend_box .sample_kyobo .not_sample .my_pick strong {
+  font-size: 13px;
+}
+.recommend .recommend_middle .recommend_box .sample_kyobo .not_sample .my_pick img {
+  padding: 20px;
+}
+.recommend .recommend_middle .recommend_box .sample_kyobo .not_sample .my_pick ul li {
+  font-size: 12px;
+  line-height: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: dotum;
+}
+.recommend .recommend_middle .recommend_box .sample_kyobo .not_sample .my_pick ul li a {
+  color: #4d4d4d;
+}
+.recommend .recommend_middle .recommend_box .sample_kyobo .sample {
+  width: 220px;
+  height: 300px;
+  border: 1px solid #dadada;
+  padding: 30px 25px 0;
+  text-align: center;
+  transition: border-color 0.2s linear;
+}
+.recommend .recommend_middle .recommend_box .sample_kyobo .sample img {
+  border: 1px solid #888;
+}
+.recommend .recommend_middle .recommend_box .sample_kyobo .sample .group {
+  font-size: 11px;
+  color: #3e74ab;
+  padding-top: 10px;
+}
+.recommend .recommend_middle .recommend_box .sample_kyobo .sample .splist_title1 {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.recommend .recommend_middle .recommend_box .sample_kyobo .sample .splist_title2 {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.recommend .recommend_middle .recommend_box .sample_kyobo .sample .splist_title3 {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.recommend .recommend_middle .recommend_box .sample_kyobo .sample .splist_title4 {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.recommend .recommend_middle .recommend_box .sample_kyobo .sample:hover {
+  border: 5px solid #5e6b9e;
+  padding: 26px 21px 0;
+}
+.recommend .recommend_middle .recommend_box .keyword {
+  width: 950px;
+  float: left;
+  margin-top: 5px;
+  padding: 9px;
+  background-color: #f3f3f3;
+}
+.recommend .recommend_middle .recommend_box .keyword strong {
+  float: left;
+  width: 109px;
+  line-height: 30px;
+  font-size: 14px;
+  margin: 2px 15px 0 22px;
+  border-right: 1px solid #c1c1c1;
+  color: #090909;
+}
+.recommend .recommend_middle .recommend_box .keyword .book_keyword {
+  font-size: 14px;
+}
+.recommend .recommend_middle .recommend_box .keyword .book_keyword a {
+  display: inline-block;
+  padding: 8px 12px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #fff;
 }
