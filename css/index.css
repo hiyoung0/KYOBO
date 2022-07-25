@@ -807,3 +807,104 @@ a {
   border-radius: 20px;
   background-color: #fff;
 }
+
+.only_kyobo {
+  width: 100%;
+}
+.only_kyobo .only_box {
+  width: 950px;
+  height: 109px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 45px;
+}
+.only_kyobo .only_box .box_title {
+  width: 128px;
+  height: 109px;
+  padding-top: 34px;
+  padding-left: 30px;
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+}
+.only_kyobo .only_box .only_content {
+  width: 802px;
+  height: 109px;
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+  padding: 0 47px;
+  position: relative;
+}
+.only_kyobo .only_box .only_content .only_list li {
+  float: left;
+  width: 118px;
+  padding: 10px 5px;
+}
+.only_kyobo .only_box .only_content .only_list li img {
+  filter: grayscale(100%);
+  opacity: 0.55;
+  transition: all 0.2s linear;
+}
+.only_kyobo .only_box .only_content .only_list li img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: translateY(-5px);
+}
+.only_kyobo .only_box .only_content .only_btn_prev {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  width: 14px;
+  height: 28px;
+  border: none;
+  background: transparent url(http://image.kyobobook.co.kr/ink/images/welcome/btn_nav_sprite.png) no-repeat 0 -120px;
+  cursor: pointer;
+}
+.only_kyobo .only_box .only_content .only_btn_prev:hover {
+  background-position: -40px -120px;
+}
+.only_kyobo .only_box .only_content .only_btn_next {
+  position: absolute;
+  top: 42px;
+  right: 0;
+  width: 14px;
+  height: 28px;
+  border: none;
+  background: transparent url(http://image.kyobobook.co.kr/ink/images/welcome/btn_nav_sprite.png) no-repeat 0 -120px;
+  background-position: -20px -120px;
+  cursor: pointer;
+}
+.only_kyobo .only_box .only_content .only_btn_next:hover {
+  background-position: -60px -120px;
+}
+
+.risingstar {
+  width: 100%;
+  height: 290px;
+  background-color: rgb(243, 243, 243);
+  margin-top: 50px;
+}
+.risingstar .rising_box {
+  width: 950px;
+  height: 290px;
+  margin: 0 auto;
+}
+.risingstar .rising_box .rising_title {
+  float: left;
+}
+.risingstar .rising_box .rising_kyobo {
+  position: relative;
+}
+.risingstar .rising_box .rising_kyobo .tap_list {
+  position: absolute;
+  width: 60px;
+  height: 12px;
+  background-color: #2ac557;
+  right: 445px;
+  bottom: 35px;
+}
+.risingstar .rising_box .rising_kyobo .rising_list li a img {
+  width: 817px;
+  height: 290px;
+}
