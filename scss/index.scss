@@ -15,6 +15,10 @@ a {
     color:#333;
 }
 
+
+
+
+// header&nav
 .advertisement {
     width:100%;
     height:65px;
@@ -113,6 +117,13 @@ a {
                         }
 
                     }
+                    .nav_hover:hover {
+                        a {
+                            color:#3c5fdf;
+                            text-decoration:underline;
+                        }
+                    }
+
                     .login {
                         border:1px solid #ddd;
                     }
@@ -142,6 +153,17 @@ a {
                         }
                         font: {
                             size:12px;
+                        }
+
+                        li {
+                            margin:0 2px;
+                        }
+
+                        .hover_a:hover {
+                            a {
+                                color:#3c5fdf;
+                                text-decoration:underline;
+                            }
                         }
                     }
                     .bt_margin{
@@ -317,6 +339,10 @@ a {
     }
 }
 
+
+
+
+// bg_wellcome_1
 .bg_wellcome_1 {
     width:100%;
     height:430px;
@@ -516,6 +542,10 @@ a {
     }
 }
 
+
+
+
+// bg_wellcome_2
 .bg_wellcome_2 {
     width:100%;
     height:130px;
@@ -543,6 +573,10 @@ a {
     }
 }
 
+
+
+
+// bg_wellcome_3
 .bg_wellcome_3 {
     width:100%;
     height:56px;
@@ -567,7 +601,11 @@ a {
     }
 }
 
-.content_middle {
+
+
+
+// bg_wellcome_4
+.bg_wellcome_4 {
     width:100%;
 
     .main_both {
@@ -781,7 +819,11 @@ a {
     }
 }
 
-.new_book {
+
+
+
+// bg_wellcome_5
+.bg_wellcome_5 {
     width:100%;
 
     .sub_both {
@@ -905,7 +947,11 @@ a {
     }
 }
 
-.recommend {
+
+
+
+// bg_wellcome_6
+.bg_wellcome_6 {
     width:100%;
 
     .recommend_middle {
@@ -989,6 +1035,7 @@ a {
                     padding:30px 25px 0;
                     text-align:center;
                     transition:border-color 0.2s linear;
+                    cursor:pointer;
 
                     img {
                         border:1px solid #888;
@@ -1088,7 +1135,11 @@ a {
     }
 }
 
-.only_kyobo {
+
+
+
+// bg_wellcome_7
+.bg_wellcome_7 {
     width:100%;
     
     .only_box {
@@ -1175,7 +1226,11 @@ a {
     }
 }
 
-.risingstar {
+
+
+
+// bg_wellcome_8
+.bg_wellcome_8 {
     width:100%;
     height:290px;
     background-color:rgb(243, 243, 243);
@@ -1197,11 +1252,22 @@ a {
 
             .tap_list {
                 position:absolute;
-                width:60px;
+                width:65px;
                 height:12px;
-                background-color: #2ac557;
                 right:445px;
                 bottom:35px;
+
+                a {
+                    display:inline-block;
+                    vertical-align:top;
+                    width:12px;
+                    height:12px;
+                    color:transparent;
+                    background: url(http://image.kyobobook.co.kr/ink/images/welcome/btn_nav_sprite.png) no-repeat 1px 1px;
+                }
+                a:nth-of-type(1) {
+                    background-position: -19px 1px;
+                }
             }
 
             .rising_list {
@@ -1214,6 +1280,233 @@ a {
                     }
                 }
             }
+
+            .rising_btn_prev {
+                position:absolute;
+                width:30px;
+                height:34px;
+                top:128px;
+                left:133px;
+                overflow:hidden;
+                background:transparent url(http://image.kyobobook.co.kr/ink/images/welcome/btn_event_nav2.png) no-repeat;
+                border:none;
+                text-indent:-300px;
+                padding:0;
+                cursor:pointer;
+                display:none;
+            }
+            .rising_btn_prev:hover {
+                background-position: 0 -34px;
+            }
+            .rising_btn_next {
+                position:absolute;
+                width:30px;
+                height:34px;
+                top:128px;
+                right:0;
+                overflow:hidden;
+                background:transparent url(http://image.kyobobook.co.kr/ink/images/welcome/btn_event_nav2.png) no-repeat;
+                background-position: -30px 0;
+                border:none;
+                text-indent:-300px;
+                padding:0;
+                cursor:pointer;
+                display:none;
+            }
+            .rising_btn_next:hover {
+                background-position: -30px -34px;
+            }
         }
     }    
+}
+
+
+
+
+// bg_wellcome_15
+.bg_wellcome_15 {
+    width:100%;
+    height:365px;
+    background: url(http://image.kyobobook.co.kr/ink/images/welcome/bg_wide_2_2.gif) repeat-x center top;
+    margin: {
+        top:50px;
+    }
+
+    .notice_kyobo {
+        width:950px;
+        height:365px;
+        margin:0 auto;
+
+        .box_notice {
+            width:475px;
+            height:58px;
+            float:left;
+            h2 {
+                float:left;
+                margin:21px 0 0 15px;
+                font: {
+                    size:14px;
+                }
+
+                a:after {
+                    content:'';
+                    display:inline-block;
+                    vertical-align:middle;
+                    margin-left:10px;
+                    width:4px;
+                    height:11px;
+                    background:url(http://image.kyobobook.co.kr/ink/images/welcome/btn_nav_sprite2.png) no-repeat 0 -90px;
+                }
+                a:hover {
+                    text-decoration:underline;
+                }
+            }
+
+            .notice {
+                float:left;
+                margin:20px 0 0 16px;
+                width:350px;
+                font-family: dotum;
+
+                li {
+                    white-space:nowrap;
+                    overflow:hidden;
+                    text-overflow:ellipsis;
+                    a {
+                        font: {
+                            size:12px;
+                            color:#767676;
+                        }
+                    }
+                    a:hover {
+                        color:#444;
+                        text-decoration:underline;
+                    }
+                }
+            }
+
+        }
+
+        .box_content {
+            float:left;
+            width:189px;
+            height:223px;
+            margin: {
+                top:20px;
+            }
+            font: {
+                size:12px;
+            }
+            border: {
+                right:1px solid #dadada;
+            }
+
+            h2 {
+                font: {
+                    size:14px;
+                }
+                line-height:18px;
+                margin:4px 0 0 15px;
+                color:#333;
+
+                a:hover {
+                    text-decoration:underline;
+                }
+            }
+
+            .notice_list {
+                margin:25px 0 0 15px;
+
+                li {
+                    margin: {
+                        top:4px;
+                    }
+                    line-height:20px;
+
+                    a {
+                        color:#767676;
+
+                        strong {
+                            font-weight: bold;
+                        }
+                    }
+                    a:hover {
+                        color:#444;
+                        text-decoration:underline;
+                    }
+                }
+            }
+        }
+        .box_content:nth-of-type(7) {
+            border:none;
+        }
+
+        .notice_link {
+
+            .box_link {
+                font: {
+                    size:14px;
+                }
+                li {
+                    width:189px;
+                    height:44px;
+                    margin: {
+                        top:15px;
+                    }
+                    float:left;
+
+                    a {
+                        display:block;
+                        border: 1px solid #dadada;
+                        margin:0 5px;
+                        padding:15px 15px 15px 21px;
+                        font-weight:bold;
+                        color:#555;
+                        transition:all 0.2s linear;
+                        background: url(http://image.kyobobook.co.kr/ink/images/welcome/btn_nav_sprite2.png) no-repeat 155px -70px;
+                    }
+                    a:hover {
+                        border-color: #888;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+// footer
+.footer {
+    width:100%;
+    height:254px;
+    margin: {
+        top:22px;
+    }
+
+    .foot_list {
+        width:100%;
+        height:44px;
+        background-color:#8b8b8b;
+    }
+    .ft_content {
+        width:950px;
+        height:44px;
+        margin:0 auto;
+
+        ul {
+            li {
+                float:left;
+                color:#fff;
+                font: {
+                    size:13px;
+                }
+
+                a {
+                    color:#fff;
+                }
+            }
+        }
+    }
 }

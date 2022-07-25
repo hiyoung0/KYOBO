@@ -91,6 +91,10 @@ a {
   font-weight: bold;
   font-size: 11px;
 }
+.top_head .top .nav .nav_right ul .nav_hover:hover a {
+  color: #3c5fdf;
+  text-decoration: underline;
+}
 .top_head .top .nav .nav_right ul .login {
   border: 1px solid #ddd;
 }
@@ -111,6 +115,13 @@ a {
   display: flex;
   margin-left: 100px;
   font-size: 12px;
+}
+.top_head .top .logo_main .search .wordlist ul li {
+  margin: 0 2px;
+}
+.top_head .top .logo_main .search .wordlist ul .hover_a:hover a {
+  color: #3c5fdf;
+  text-decoration: underline;
 }
 .top_head .top .logo_main .search .wordlist .bt_margin {
   margin-left: 100px;
@@ -442,46 +453,46 @@ a {
   width: 318px;
 }
 
-.content_middle {
+.bg_wellcome_4 {
   width: 100%;
 }
-.content_middle .main_both {
+.bg_wellcome_4 .main_both {
   width: 950px;
   margin: 0 auto;
   position: relative;
 }
-.content_middle .main_both .box_wellcome_kyobo {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo {
   width: 634px;
   height: 355px;
   margin-top: 50px;
 }
-.content_middle .main_both .box_wellcome_kyobo h2 {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo h2 {
   float: left;
   font-size: 16px;
   font-weight: bold;
   margin-right: 25px;
 }
-.content_middle .main_both .box_wellcome_kyobo h2:hover a {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo h2:hover a {
   color: #3c5fdf;
   text-decoration: underline;
 }
-.content_middle .main_both .box_wellcome_kyobo .mini {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo .mini {
   font-size: 12px;
 }
-.content_middle .main_both .box_wellcome_kyobo .mini h3 {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo .mini h3 {
   display: inline-block;
   padding: 2px 5px 2px;
   margin-right: 5px;
 }
-.content_middle .main_both .box_wellcome_kyobo .mini a:nth-of-type(1) h3 {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo .mini a:nth-of-type(1) h3 {
   background-color: #9cafe9;
   color: #fff;
 }
-.content_middle .main_both .box_wellcome_kyobo .mini h3:hover {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo .mini h3:hover {
   background-color: #9cafe9;
   color: #fff;
 }
-.content_middle .main_both .box_wellcome_kyobo .section_first .change {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo .section_first .change {
   margin-top: 20px;
   width: 634px;
   height: 320px;
@@ -490,75 +501,75 @@ a {
   justify-content: space-between;
   border: 1px solid #999;
 }
-.content_middle .main_both .box_wellcome_kyobo .section_first .change .change_book {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo .section_first .change .change_book {
   width: 270px;
   height: 318px;
   background-color: #FAFAFA;
   overflow: hidden;
   position: relative;
 }
-.content_middle .main_both .box_wellcome_kyobo .section_first .change .change_book .tap_wellcome_kyobo li {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo .section_first .change .change_book .tap_wellcome_kyobo li {
   width: 114px;
   height: 172px;
   border: 1px solid #999;
   position: absolute;
   transition: all 0.2s linear;
 }
-.content_middle .main_both .box_wellcome_kyobo .section_first .change .change_book .tap_wellcome_kyobo li img {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo .section_first .change .change_book .tap_wellcome_kyobo li img {
   width: 112px;
   height: 170px;
 }
-.content_middle .main_both .box_wellcome_kyobo .section_first .change .change_book .tap_wellcome_kyobo .book_1 {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo .section_first .change .change_book .tap_wellcome_kyobo .book_1 {
   z-index: 3;
   top: 40px;
   left: 75px;
 }
-.content_middle .main_both .box_wellcome_kyobo .section_first .change .change_book .tap_wellcome_kyobo .book_2 {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo .section_first .change .change_book .tap_wellcome_kyobo .book_2 {
   width: 82px;
   height: 122px;
   opacity: 0.7;
   top: 70px;
   right: 15px;
 }
-.content_middle .main_both .box_wellcome_kyobo .section_first .change .change_book .tap_wellcome_kyobo .book_2 img {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo .section_first .change .change_book .tap_wellcome_kyobo .book_2 img {
   width: 80px;
   height: 120px;
 }
-.content_middle .main_both .box_wellcome_kyobo .section_first .change .change_book .tap_wellcome_kyobo .book_2:hover {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo .section_first .change .change_book .tap_wellcome_kyobo .book_2:hover {
   opacity: 1;
   transform: translateX(1.7px);
 }
-.content_middle .main_both .box_wellcome_kyobo .section_first .change .change_book .tap_wellcome_kyobo .book_3 {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo .section_first .change .change_book .tap_wellcome_kyobo .book_3 {
   width: 82px;
   height: 122px;
   opacity: 0.7;
   top: 70px;
   left: 15px;
 }
-.content_middle .main_both .box_wellcome_kyobo .section_first .change .change_book .tap_wellcome_kyobo .book_3 img {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo .section_first .change .change_book .tap_wellcome_kyobo .book_3 img {
   width: 80px;
   height: 120px;
 }
-.content_middle .main_both .box_wellcome_kyobo .section_first .change .change_book .tap_wellcome_kyobo .book_3:hover {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo .section_first .change .change_book .tap_wellcome_kyobo .book_3:hover {
   opacity: 1;
   transform: translateX(-1.7px);
 }
-.content_middle .main_both .box_wellcome_kyobo .section_first .change .card_news {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo .section_first .change .card_news {
   width: 362px;
   height: 318px;
   overflow: hidden;
 }
-.content_middle .main_both .box_wellcome_kyobo .section_first .change .card_news .card_ad {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo .section_first .change .card_news .card_ad {
   width: 2200px;
 }
-.content_middle .main_both .box_wellcome_kyobo .section_first .change .card_news .card_ad li {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo .section_first .change .card_news .card_ad li {
   float: left;
 }
-.content_middle .main_both .box_wellcome_kyobo .section_first .change .card_news .card_ad li img {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo .section_first .change .card_news .card_ad li img {
   width: 362px;
   height: 318px;
 }
-.content_middle .main_both .box_wellcome_kyobo .section_first .change .change_title {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo .section_first .change .change_title {
   width: 632px;
   height: 54px;
   background-color: rgba(94, 107, 158, 0.8);
@@ -566,24 +577,24 @@ a {
   bottom: 0;
   color: #fff;
 }
-.content_middle .main_both .box_wellcome_kyobo .section_first .change .change_title .card_news_title {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo .section_first .change .change_title .card_news_title {
   float: left;
   padding-top: 16px;
   padding-left: 12px;
   padding-right: 14px;
   font-size: 14px;
 }
-.content_middle .main_both .box_wellcome_kyobo .section_first .change .change_title .card_news_title a {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo .section_first .change .change_title .card_news_title a {
   color: #fff;
 }
-.content_middle .main_both .box_wellcome_kyobo .section_first .change .change_title .card_news_title a:hover {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo .section_first .change .change_title .card_news_title a:hover {
   text-decoration: underline;
 }
-.content_middle .main_both .box_wellcome_kyobo .section_first .change .change_title .card_news_author {
+.bg_wellcome_4 .main_both .box_wellcome_kyobo .section_first .change .change_title .card_news_author {
   font-size: 11px;
   padding-top: 18px;
 }
-.content_middle .main_both .best_ad {
+.bg_wellcome_4 .main_both .best_ad {
   width: 302px;
   height: 320px;
   border: 1px solid #dadada;
@@ -592,54 +603,54 @@ a {
   right: 0;
   margin-top: 42px;
 }
-.content_middle .main_both .best_ad .day_ad_top {
+.bg_wellcome_4 .main_both .best_ad .day_ad_top {
   width: 302px;
   height: 210px;
   border-bottom: 1px solid #dadada;
 }
-.content_middle .main_both .best_ad .day_ad_bottom {
+.bg_wellcome_4 .main_both .best_ad .day_ad_bottom {
   width: 302px;
   height: 110px;
 }
-.content_middle .main_both .best_ad .day_ad_bottom img {
+.bg_wellcome_4 .main_both .best_ad .day_ad_bottom img {
   width: 268px;
   height: 108px;
 }
 
-.new_book {
+.bg_wellcome_5 {
   width: 100%;
 }
-.new_book .sub_both {
+.bg_wellcome_5 .sub_both {
   width: 950px;
   margin: 50px auto 0;
 }
-.new_book .sub_both .box_kyobo h2 {
+.bg_wellcome_5 .sub_both .box_kyobo h2 {
   float: left;
   font-size: 16px;
   font-weight: bold;
   margin-right: 25px;
 }
-.new_book .sub_both .box_kyobo h2:hover a {
+.bg_wellcome_5 .sub_both .box_kyobo h2:hover a {
   color: #3c5fdf;
   text-decoration: underline;
 }
-.new_book .sub_both .box_kyobo .mini_kb {
+.bg_wellcome_5 .sub_both .box_kyobo .mini_kb {
   font-size: 12px;
 }
-.new_book .sub_both .box_kyobo .mini_kb h3 {
+.bg_wellcome_5 .sub_both .box_kyobo .mini_kb h3 {
   display: inline-block;
   padding: 2px 5px 2px;
   margin-right: 5px;
 }
-.new_book .sub_both .box_kyobo .mini_kb a:nth-of-type(1) h3 {
+.bg_wellcome_5 .sub_both .box_kyobo .mini_kb a:nth-of-type(1) h3 {
   background-color: #9cafe9;
   color: #fff;
 }
-.new_book .sub_both .box_kyobo .mini_kb h3:hover {
+.bg_wellcome_5 .sub_both .box_kyobo .mini_kb h3:hover {
   background-color: #9cafe9;
   color: #fff;
 }
-.new_book .sub_both .box_kyobo .new_book_kblist1 {
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist1 {
   width: 950px;
   height: 309px;
   display: flex;
@@ -647,7 +658,7 @@ a {
   justify-content: space-between;
   margin-top: 10px;
 }
-.new_book .sub_both .box_kyobo .new_book_kblist1 .kblist {
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist1 .kblist {
   width: 220px;
   height: 300px;
   border: 1px solid #dadada;
@@ -655,61 +666,61 @@ a {
   text-align: center;
   transition: border-color 0.2s linear;
 }
-.new_book .sub_both .box_kyobo .new_book_kblist1 .kblist img {
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist1 .kblist img {
   border: 1px solid #888;
 }
-.new_book .sub_both .box_kyobo .new_book_kblist1 .kblist .group {
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist1 .kblist .group {
   font-size: 11px;
   color: #3e74ab;
   padding-top: 10px;
 }
-.new_book .sub_both .box_kyobo .new_book_kblist1 .kblist .kblist_title1 {
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist1 .kblist .kblist_title1 {
   font-size: 12px;
   padding-top: 10px;
 }
-.new_book .sub_both .box_kyobo .new_book_kblist1 .kblist .kblist_title2 {
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist1 .kblist .kblist_title2 {
   font-size: 12px;
   padding-top: 10px;
 }
-.new_book .sub_both .box_kyobo .new_book_kblist1 .kblist .kblist_title3 {
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist1 .kblist .kblist_title3 {
   font-size: 12px;
   padding-top: 10px;
 }
-.new_book .sub_both .box_kyobo .new_book_kblist1 .kblist .kblist_title4 {
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist1 .kblist .kblist_title4 {
   font-size: 12px;
   padding-top: 10px;
 }
-.new_book .sub_both .box_kyobo .new_book_kblist1 .kblist:hover {
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist1 .kblist:hover {
   border: 5px solid #5e6b9e;
   padding: 26px 21px 0;
 }
 
-.recommend {
+.bg_wellcome_6 {
   width: 100%;
 }
-.recommend .recommend_middle {
+.bg_wellcome_6 .recommend_middle {
   width: 950px;
   margin: 50px auto 0;
 }
-.recommend .recommend_middle .recommend_box {
+.bg_wellcome_6 .recommend_middle .recommend_box {
   width: 950px;
   height: 406px;
 }
-.recommend .recommend_middle .recommend_box h2 {
+.bg_wellcome_6 .recommend_middle .recommend_box h2 {
   font-size: 16px;
   font-weight: bold;
 }
-.recommend .recommend_middle .recommend_box h2 span {
+.bg_wellcome_6 .recommend_middle .recommend_box h2 span {
   color: #2ac557;
 }
-.recommend .recommend_middle .recommend_box h2 img {
+.bg_wellcome_6 .recommend_middle .recommend_box h2 img {
   vertical-align: middle;
 }
-.recommend .recommend_middle .recommend_box h2:hover a {
+.bg_wellcome_6 .recommend_middle .recommend_box h2:hover a {
   color: #3c5fdf;
   text-decoration: underline;
 }
-.recommend .recommend_middle .recommend_box .sample_kyobo {
+.bg_wellcome_6 .recommend_middle .recommend_box .sample_kyobo {
   width: 950px;
   height: 309px;
   display: flex;
@@ -717,23 +728,23 @@ a {
   justify-content: space-between;
   margin-top: 10px;
 }
-.recommend .recommend_middle .recommend_box .sample_kyobo .not_sample {
+.bg_wellcome_6 .recommend_middle .recommend_box .sample_kyobo .not_sample {
   width: 220px;
   height: 300px;
   border: 1px solid #dadada;
   padding: 20px 25px 0;
   background-color: #f5f5f5;
 }
-.recommend .recommend_middle .recommend_box .sample_kyobo .not_sample .my_pick {
+.bg_wellcome_6 .recommend_middle .recommend_box .sample_kyobo .not_sample .my_pick {
   width: 169px;
 }
-.recommend .recommend_middle .recommend_box .sample_kyobo .not_sample .my_pick strong {
+.bg_wellcome_6 .recommend_middle .recommend_box .sample_kyobo .not_sample .my_pick strong {
   font-size: 13px;
 }
-.recommend .recommend_middle .recommend_box .sample_kyobo .not_sample .my_pick img {
+.bg_wellcome_6 .recommend_middle .recommend_box .sample_kyobo .not_sample .my_pick img {
   padding: 20px;
 }
-.recommend .recommend_middle .recommend_box .sample_kyobo .not_sample .my_pick ul li {
+.bg_wellcome_6 .recommend_middle .recommend_box .sample_kyobo .not_sample .my_pick ul li {
   font-size: 12px;
   line-height: 20px;
   text-overflow: ellipsis;
@@ -741,53 +752,54 @@ a {
   white-space: nowrap;
   font-family: dotum;
 }
-.recommend .recommend_middle .recommend_box .sample_kyobo .not_sample .my_pick ul li a {
+.bg_wellcome_6 .recommend_middle .recommend_box .sample_kyobo .not_sample .my_pick ul li a {
   color: #4d4d4d;
 }
-.recommend .recommend_middle .recommend_box .sample_kyobo .sample {
+.bg_wellcome_6 .recommend_middle .recommend_box .sample_kyobo .sample {
   width: 220px;
   height: 300px;
   border: 1px solid #dadada;
   padding: 30px 25px 0;
   text-align: center;
   transition: border-color 0.2s linear;
+  cursor: pointer;
 }
-.recommend .recommend_middle .recommend_box .sample_kyobo .sample img {
+.bg_wellcome_6 .recommend_middle .recommend_box .sample_kyobo .sample img {
   border: 1px solid #888;
 }
-.recommend .recommend_middle .recommend_box .sample_kyobo .sample .group {
+.bg_wellcome_6 .recommend_middle .recommend_box .sample_kyobo .sample .group {
   font-size: 11px;
   color: #3e74ab;
   padding-top: 10px;
 }
-.recommend .recommend_middle .recommend_box .sample_kyobo .sample .splist_title1 {
+.bg_wellcome_6 .recommend_middle .recommend_box .sample_kyobo .sample .splist_title1 {
   font-size: 12px;
   padding-top: 10px;
 }
-.recommend .recommend_middle .recommend_box .sample_kyobo .sample .splist_title2 {
+.bg_wellcome_6 .recommend_middle .recommend_box .sample_kyobo .sample .splist_title2 {
   font-size: 12px;
   padding-top: 10px;
 }
-.recommend .recommend_middle .recommend_box .sample_kyobo .sample .splist_title3 {
+.bg_wellcome_6 .recommend_middle .recommend_box .sample_kyobo .sample .splist_title3 {
   font-size: 12px;
   padding-top: 10px;
 }
-.recommend .recommend_middle .recommend_box .sample_kyobo .sample .splist_title4 {
+.bg_wellcome_6 .recommend_middle .recommend_box .sample_kyobo .sample .splist_title4 {
   font-size: 12px;
   padding-top: 10px;
 }
-.recommend .recommend_middle .recommend_box .sample_kyobo .sample:hover {
+.bg_wellcome_6 .recommend_middle .recommend_box .sample_kyobo .sample:hover {
   border: 5px solid #5e6b9e;
   padding: 26px 21px 0;
 }
-.recommend .recommend_middle .recommend_box .keyword {
+.bg_wellcome_6 .recommend_middle .recommend_box .keyword {
   width: 950px;
   float: left;
   margin-top: 5px;
   padding: 9px;
   background-color: #f3f3f3;
 }
-.recommend .recommend_middle .recommend_box .keyword strong {
+.bg_wellcome_6 .recommend_middle .recommend_box .keyword strong {
   float: left;
   width: 109px;
   line-height: 30px;
@@ -796,10 +808,10 @@ a {
   border-right: 1px solid #c1c1c1;
   color: #090909;
 }
-.recommend .recommend_middle .recommend_box .keyword .book_keyword {
+.bg_wellcome_6 .recommend_middle .recommend_box .keyword .book_keyword {
   font-size: 14px;
 }
-.recommend .recommend_middle .recommend_box .keyword .book_keyword a {
+.bg_wellcome_6 .recommend_middle .recommend_box .keyword .book_keyword a {
   display: inline-block;
   padding: 8px 12px;
   margin-right: 5px;
@@ -808,10 +820,10 @@ a {
   background-color: #fff;
 }
 
-.only_kyobo {
+.bg_wellcome_7 {
   width: 100%;
 }
-.only_kyobo .only_box {
+.bg_wellcome_7 .only_box {
   width: 950px;
   height: 109px;
   margin: 0 auto;
@@ -820,7 +832,7 @@ a {
   align-items: center;
   margin-top: 45px;
 }
-.only_kyobo .only_box .box_title {
+.bg_wellcome_7 .only_box .box_title {
   width: 128px;
   height: 109px;
   padding-top: 34px;
@@ -828,7 +840,7 @@ a {
   border-top: 1px solid #dadada;
   border-bottom: 1px solid #dadada;
 }
-.only_kyobo .only_box .only_content {
+.bg_wellcome_7 .only_box .only_content {
   width: 802px;
   height: 109px;
   border-top: 1px solid #dadada;
@@ -836,22 +848,22 @@ a {
   padding: 0 47px;
   position: relative;
 }
-.only_kyobo .only_box .only_content .only_list li {
+.bg_wellcome_7 .only_box .only_content .only_list li {
   float: left;
   width: 118px;
   padding: 10px 5px;
 }
-.only_kyobo .only_box .only_content .only_list li img {
+.bg_wellcome_7 .only_box .only_content .only_list li img {
   filter: grayscale(100%);
   opacity: 0.55;
   transition: all 0.2s linear;
 }
-.only_kyobo .only_box .only_content .only_list li img:hover {
+.bg_wellcome_7 .only_box .only_content .only_list li img:hover {
   filter: grayscale(0%);
   opacity: 1;
   transform: translateY(-5px);
 }
-.only_kyobo .only_box .only_content .only_btn_prev {
+.bg_wellcome_7 .only_box .only_content .only_btn_prev {
   position: absolute;
   top: 42px;
   left: 0;
@@ -861,10 +873,10 @@ a {
   background: transparent url(http://image.kyobobook.co.kr/ink/images/welcome/btn_nav_sprite.png) no-repeat 0 -120px;
   cursor: pointer;
 }
-.only_kyobo .only_box .only_content .only_btn_prev:hover {
+.bg_wellcome_7 .only_box .only_content .only_btn_prev:hover {
   background-position: -40px -120px;
 }
-.only_kyobo .only_box .only_content .only_btn_next {
+.bg_wellcome_7 .only_box .only_content .only_btn_next {
   position: absolute;
   top: 42px;
   right: 0;
@@ -875,36 +887,217 @@ a {
   background-position: -20px -120px;
   cursor: pointer;
 }
-.only_kyobo .only_box .only_content .only_btn_next:hover {
+.bg_wellcome_7 .only_box .only_content .only_btn_next:hover {
   background-position: -60px -120px;
 }
 
-.risingstar {
+.bg_wellcome_8 {
   width: 100%;
   height: 290px;
   background-color: rgb(243, 243, 243);
   margin-top: 50px;
 }
-.risingstar .rising_box {
+.bg_wellcome_8 .rising_box {
   width: 950px;
   height: 290px;
   margin: 0 auto;
 }
-.risingstar .rising_box .rising_title {
+.bg_wellcome_8 .rising_box .rising_title {
   float: left;
 }
-.risingstar .rising_box .rising_kyobo {
+.bg_wellcome_8 .rising_box .rising_kyobo {
   position: relative;
 }
-.risingstar .rising_box .rising_kyobo .tap_list {
+.bg_wellcome_8 .rising_box .rising_kyobo .tap_list {
   position: absolute;
-  width: 60px;
+  width: 65px;
   height: 12px;
-  background-color: #2ac557;
   right: 445px;
   bottom: 35px;
 }
-.risingstar .rising_box .rising_kyobo .rising_list li a img {
+.bg_wellcome_8 .rising_box .rising_kyobo .tap_list a {
+  display: inline-block;
+  vertical-align: top;
+  width: 12px;
+  height: 12px;
+  color: transparent;
+  background: url(http://image.kyobobook.co.kr/ink/images/welcome/btn_nav_sprite.png) no-repeat 1px 1px;
+}
+.bg_wellcome_8 .rising_box .rising_kyobo .tap_list a:nth-of-type(1) {
+  background-position: -19px 1px;
+}
+.bg_wellcome_8 .rising_box .rising_kyobo .rising_list li a img {
   width: 817px;
   height: 290px;
+}
+.bg_wellcome_8 .rising_box .rising_kyobo .rising_btn_prev {
+  position: absolute;
+  width: 30px;
+  height: 34px;
+  top: 128px;
+  left: 133px;
+  overflow: hidden;
+  background: transparent url(http://image.kyobobook.co.kr/ink/images/welcome/btn_event_nav2.png) no-repeat;
+  border: none;
+  text-indent: -300px;
+  padding: 0;
+  cursor: pointer;
+  display: none;
+}
+.bg_wellcome_8 .rising_box .rising_kyobo .rising_btn_prev:hover {
+  background-position: 0 -34px;
+}
+.bg_wellcome_8 .rising_box .rising_kyobo .rising_btn_next {
+  position: absolute;
+  width: 30px;
+  height: 34px;
+  top: 128px;
+  right: 0;
+  overflow: hidden;
+  background: transparent url(http://image.kyobobook.co.kr/ink/images/welcome/btn_event_nav2.png) no-repeat;
+  background-position: -30px 0;
+  border: none;
+  text-indent: -300px;
+  padding: 0;
+  cursor: pointer;
+  display: none;
+}
+.bg_wellcome_8 .rising_box .rising_kyobo .rising_btn_next:hover {
+  background-position: -30px -34px;
+}
+
+.bg_wellcome_15 {
+  width: 100%;
+  height: 365px;
+  background: url(http://image.kyobobook.co.kr/ink/images/welcome/bg_wide_2_2.gif) repeat-x center top;
+  margin-top: 50px;
+}
+.bg_wellcome_15 .notice_kyobo {
+  width: 950px;
+  height: 365px;
+  margin: 0 auto;
+}
+.bg_wellcome_15 .notice_kyobo .box_notice {
+  width: 475px;
+  height: 58px;
+  float: left;
+}
+.bg_wellcome_15 .notice_kyobo .box_notice h2 {
+  float: left;
+  margin: 21px 0 0 15px;
+  font-size: 14px;
+}
+.bg_wellcome_15 .notice_kyobo .box_notice h2 a:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  width: 4px;
+  height: 11px;
+  background: url(http://image.kyobobook.co.kr/ink/images/welcome/btn_nav_sprite2.png) no-repeat 0 -90px;
+}
+.bg_wellcome_15 .notice_kyobo .box_notice h2 a:hover {
+  text-decoration: underline;
+}
+.bg_wellcome_15 .notice_kyobo .box_notice .notice {
+  float: left;
+  margin: 20px 0 0 16px;
+  width: 350px;
+  font-family: dotum;
+}
+.bg_wellcome_15 .notice_kyobo .box_notice .notice li {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bg_wellcome_15 .notice_kyobo .box_notice .notice li a {
+  font-size: 12px;
+  font-color: #767676;
+}
+.bg_wellcome_15 .notice_kyobo .box_notice .notice li a:hover {
+  color: #444;
+  text-decoration: underline;
+}
+.bg_wellcome_15 .notice_kyobo .box_content {
+  float: left;
+  width: 189px;
+  height: 223px;
+  margin-top: 20px;
+  font-size: 12px;
+  border-right: 1px solid #dadada;
+}
+.bg_wellcome_15 .notice_kyobo .box_content h2 {
+  font-size: 14px;
+  line-height: 18px;
+  margin: 4px 0 0 15px;
+  color: #333;
+}
+.bg_wellcome_15 .notice_kyobo .box_content h2 a:hover {
+  text-decoration: underline;
+}
+.bg_wellcome_15 .notice_kyobo .box_content .notice_list {
+  margin: 25px 0 0 15px;
+}
+.bg_wellcome_15 .notice_kyobo .box_content .notice_list li {
+  margin-top: 4px;
+  line-height: 20px;
+}
+.bg_wellcome_15 .notice_kyobo .box_content .notice_list li a {
+  color: #767676;
+}
+.bg_wellcome_15 .notice_kyobo .box_content .notice_list li a strong {
+  font-weight: bold;
+}
+.bg_wellcome_15 .notice_kyobo .box_content .notice_list li a:hover {
+  color: #444;
+  text-decoration: underline;
+}
+.bg_wellcome_15 .notice_kyobo .box_content:nth-of-type(7) {
+  border: none;
+}
+.bg_wellcome_15 .notice_kyobo .notice_link .box_link {
+  font-size: 14px;
+}
+.bg_wellcome_15 .notice_kyobo .notice_link .box_link li {
+  width: 189px;
+  height: 44px;
+  margin-top: 15px;
+  float: left;
+}
+.bg_wellcome_15 .notice_kyobo .notice_link .box_link li a {
+  display: block;
+  border: 1px solid #dadada;
+  margin: 0 5px;
+  padding: 15px 15px 15px 21px;
+  font-weight: bold;
+  color: #555;
+  transition: all 0.2s linear;
+  background: url(http://image.kyobobook.co.kr/ink/images/welcome/btn_nav_sprite2.png) no-repeat 155px -70px;
+}
+.bg_wellcome_15 .notice_kyobo .notice_link .box_link li a:hover {
+  border-color: #888;
+}
+
+.footer {
+  width: 100%;
+  height: 254px;
+  margin-top: 22px;
+}
+.footer .foot_list {
+  width: 100%;
+  height: 44px;
+  background-color: #8b8b8b;
+}
+.footer .ft_content {
+  width: 950px;
+  height: 44px;
+  margin: 0 auto;
+}
+.footer .ft_content ul li {
+  float: left;
+  color: #fff;
+  font-size: 13px;
+}
+.footer .ft_content ul li a {
+  color: #fff;
 }
