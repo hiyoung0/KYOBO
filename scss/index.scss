@@ -413,9 +413,76 @@ a {
         .mainEvent2 {
             background-color: rgb(161, 221, 192);
             display:none;
-
             img {
                 margin:5px -33px;
+            }
+        }
+        .mainEvent3 {
+            background-color: rgb(226, 242, 211);
+            display:none;
+        }
+        .mainEvent4 {
+            background-color: rgb(218, 236, 240);
+            display:none;
+            a {
+                display:block;
+                width:232px;
+                height:300px;
+                padding-left: 1px;
+                background: url(http://image.kyobobook.co.kr/ink/images/welcome/line_main_event.gif) no-repeat left center;
+                float: left;
+                img {
+                    width: 232px;
+                    height: 300px;
+                }
+            }
+            a:first-child {
+                padding-left: 0;
+                background: none;
+            }
+        }
+        .mainEvent5 {
+            background-color: rgb(248, 244, 216);
+            display:none;
+        }
+        .mainEvent6 {
+            background-color: rgb(222, 243, 228);
+            display:none;
+            a {
+                display:block;
+                width:232px;
+                height:300px;
+                padding-left: 1px;
+                background: url(http://image.kyobobook.co.kr/ink/images/welcome/line_main_event.gif) no-repeat left center;
+                float: left;
+                img {
+                    width: 232px;
+                    height: 300px;
+                }
+            }
+            a:first-child {
+                padding-left: 0;
+                background: none;
+            }
+        }
+        .mainEvent7 {
+            background-color: rgb(251, 234, 239);
+            display:none;
+            a {
+                display:block;
+                width:232px;
+                height:300px;
+                padding-left: 1px;
+                background: url(http://image.kyobobook.co.kr/ink/images/welcome/line_main_event.gif) no-repeat left center;
+                float: left;
+                img {
+                    width: 232px;
+                    height: 300px;
+                }
+            }
+            a:first-child {
+                padding-left: 0;
+                background: none;
             }
         }
 
