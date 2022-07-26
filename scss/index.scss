@@ -413,76 +413,266 @@ a {
         .mainEvent2 {
             background-color: rgb(161, 221, 192);
             display:none;
+            position:relative;
             img {
                 margin:5px -33px;
+            }
+            
+            .circle_list {
+                width:120px;
+                height:20px;
+                position:absolute;
+                bottom:-27px;
+                left:105px;
+
+                li {
+                    float:left;
+                    width:16px;
+                    height:12px;
+                    a {
+                        display:inline-block;
+                        vertical-align:middle;
+                        position:relative;
+                        width:12px;
+                        height:12px;
+                        margin: {
+                            bottom:5px;
+                        }
+                        color:transparent;
+                        background:url(http://image.kyobobook.co.kr/ink/images/welcome/btn_nav_sprite.png) no-repeat -39px 1px;
+                    }
+                    .circle_on {
+                        background-position: -59px 1px;
+                    }
+                }
             }
         }
         .mainEvent3 {
             background-color: rgb(226, 242, 211);
             display:none;
+            position:relative;
+            .circle2_list {
+                width:120px;
+                height:20px;
+                position:absolute;
+                bottom:-27px;
+                left:220px;
+
+                li {
+                    float:left;
+                    width:16px;
+                    height:12px;
+                    a {
+                        display:inline-block;
+                        vertical-align:middle;
+                        position:relative;
+                        width:12px;
+                        height:12px;
+                        margin: {
+                            bottom:5px;
+                        }
+                        color:transparent;
+                        background:url(http://image.kyobobook.co.kr/ink/images/welcome/btn_nav_sprite.png) no-repeat -39px 1px;
+                    }
+                    .circle2_on {
+                        background-position: -59px 1px;
+                    }
+                }
+            }
         }
         .mainEvent4 {
             background-color: rgb(218, 236, 240);
             display:none;
-            a {
-                display:block;
-                width:232px;
+
+            .thema {
                 height:300px;
-                padding-left: 1px;
-                background: url(http://image.kyobobook.co.kr/ink/images/welcome/line_main_event.gif) no-repeat left center;
-                float: left;
-                img {
+
+                a {
+                    display: block;
                     width: 232px;
                     height: 300px;
+                    padding-left: 1px;
+                    background: url(http://image.kyobobook.co.kr/ink/images/welcome/line_main_event.gif) no-repeat left center;
+                    float: left;
+            
+                    img {
+                        width: 232px;
+                        height: 300px;
+                    }
+                }
+            
+                a:first-child {
+                    bottom:-27px;
+                    background: none;
                 }
             }
-            a:first-child {
-                padding-left: 0;
-                background: none;
+
+            .circle3_list {
+                width:120px;
+                height:20px;
+                position:absolute;
+                bottom:40px;
+                left:330px;
+
+                li {
+                    float:left;
+                    width:16px;
+                    height:12px;
+                    a {
+                        display:inline-block;
+                        vertical-align:middle;
+                        position:relative;
+                        width:12px;
+                        height:12px;
+                        margin: {
+                            bottom:5px;
+                        }
+                        color:transparent;
+                        background:url(http://image.kyobobook.co.kr/ink/images/welcome/btn_nav_sprite.png) no-repeat -39px 1px;
+                    }
+                    .circle3_on {
+                        background-position: -59px 1px;
+                    }
+                }
             }
         }
         .mainEvent5 {
             background-color: rgb(248, 244, 216);
             display:none;
+            position:relative;
+            .circle4_list {
+                width:120px;
+                height:20px;
+                position:absolute;
+                bottom:-27px;
+                left:418px;
+
+                li {
+                    float:left;
+                    width:16px;
+                    height:12px;
+                    a {
+                        display:inline-block;
+                        vertical-align:middle;
+                        position:relative;
+                        width:12px;
+                        height:12px;
+                        margin: {
+                            bottom:5px;
+                        }
+                        color:transparent;
+                        background:url(http://image.kyobobook.co.kr/ink/images/welcome/btn_nav_sprite.png) no-repeat -39px 1px;
+                    }
+                    .circle4_on {
+                        background-position: -59px 1px;
+                    }
+                }
+            }
         }
         .mainEvent6 {
             background-color: rgb(222, 243, 228);
             display:none;
-            a {
-                display:block;
-                width:232px;
-                height:300px;
-                padding-left: 1px;
-                background: url(http://image.kyobobook.co.kr/ink/images/welcome/line_main_event.gif) no-repeat left center;
-                float: left;
-                img {
+
+            .ebook_thema {
+                a {
+                    display: block;
                     width: 232px;
                     height: 300px;
+                    padding-left: 1px;
+                    background: url(http://image.kyobobook.co.kr/ink/images/welcome/line_main_event.gif) no-repeat left center;
+                    float: left;
+            
+                    img {
+                        width: 232px;
+                        height: 300px;
+                    }
+                }
+            
+                a:first-child {
+                    padding-left: 0;
+                    background: none;
                 }
             }
-            a:first-child {
-                padding-left: 0;
-                background: none;
+            .circle5_list {
+                width:120px;
+                height:20px;
+                position:absolute;
+                bottom:40px;
+                left:550px;
+
+                li {
+                    float:left;
+                    width:16px;
+                    height:12px;
+                    a {
+                        display:inline-block;
+                        vertical-align:middle;
+                        position:relative;
+                        width:12px;
+                        height:12px;
+                        margin: {
+                            bottom:5px;
+                        }
+                        color:transparent;
+                        background:url(http://image.kyobobook.co.kr/ink/images/welcome/btn_nav_sprite.png) no-repeat -39px 1px;
+                    }
+                    .circle5_on {
+                        background-position: -59px 1px;
+                    }
+                }
             }
         }
         .mainEvent7 {
             background-color: rgb(251, 234, 239);
             display:none;
-            a {
-                display:block;
-                width:232px;
-                height:300px;
-                padding-left: 1px;
-                background: url(http://image.kyobobook.co.kr/ink/images/welcome/line_main_event.gif) no-repeat left center;
-                float: left;
-                img {
+
+            .edition {
+                a {
+                    display: block;
                     width: 232px;
                     height: 300px;
+                    padding-left: 1px;
+                    background: url(http://image.kyobobook.co.kr/ink/imageswelcome/line_main_event.gif) no-repeat left center;
+                    float: left;
+            
+                    img {
+                        width: 232px;
+                        height: 300px;
+                    }
+                }
+            
+                a:first-child {
+                    padding-left: 0;
+                    background: none;
                 }
             }
-            a:first-child {
-                padding-left: 0;
-                background: none;
+            .circle6_list {
+                width:120px;
+                height:20px;
+                position:absolute;
+                bottom:40px;
+                left:640px;
+
+                li {
+                    float:left;
+                    width:16px;
+                    height:12px;
+                    a {
+                        display:inline-block;
+                        vertical-align:middle;
+                        position:relative;
+                        width:12px;
+                        height:12px;
+                        margin: {
+                            bottom:5px;
+                        }
+                        color:transparent;
+                        background:url(http://image.kyobobook.co.kr/ink/images/welcome/btn_nav_sprite.png) no-repeat -39px 1px;
+                    }
+                    .circle6_on {
+                        background-position: -59px 1px;
+                    }
+                }
             }
         }
 
@@ -508,15 +698,7 @@ a {
                 }
                 border:1px solid #d7d7d7;
             }
-            .category1 {
-                background-color:#5e6b9e;
-                border: {
-                    top:3px solid #353f67;
-                }
-                a {
-                    color:#fff;
-                }
-            }
+            
             .typeclass {
                 background-color:#5e6b9e;
                 border: {
@@ -824,6 +1006,33 @@ a {
                             .book_3:hover {
                                 opacity:1;
                                 transform:translateX(-1.7px);
+                            }
+                        }
+
+                        .change_book_circle {
+                            position:absolute;
+                            width:80px;
+                            height:15px;
+                            bottom:70px;
+                            left:105px;
+
+                            li {
+                                a {
+                                    width:12px;
+                                    height:12px;
+                                    display:block;
+                                    float:left;
+                                    background: url(http://image.kyobobook.co.kr/ink/images/welcome/btn_nav_sprite.png) no-repeat 1px 1px;
+                                    margin: {
+                                        left:4px;
+                                    }
+                                    background-position: -39px 1px;
+                                }
+                            }
+                            .click1_circle {
+                                a {
+                                    background-position: -59px 1px;
+                                }
                             }
                         }
                     }

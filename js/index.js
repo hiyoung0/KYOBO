@@ -9,7 +9,7 @@ $(document).ready(function(){
         $(".mainEvent6").hide();
         $(".mainEvent7").hide();
         $(".bg_wellcome_1").css("background-color","rgb(230, 233, 246)");
-        $(".category1").addClass("category1");
+        $(".category1").addClass("typeclass");
         $(".category2").removeClass("typeclass");
         $(".category3").removeClass("typeclass");
         $(".category4").removeClass("typeclass");
@@ -26,7 +26,7 @@ $(document).ready(function(){
         $(".mainEvent6").hide();
         $(".mainEvent7").hide();
         $(".bg_wellcome_1").css("background-color","rgb(161, 221, 192)");
-        $(".category1").removeClass("category1");
+        $(".category1").removeClass("typeclass");
         $(".category2").addClass("typeclass");
         $(".category3").removeClass("typeclass");
         $(".category4").removeClass("typeclass");
@@ -43,7 +43,7 @@ $(document).ready(function(){
         $(".mainEvent6").hide();
         $(".mainEvent7").hide();
         $(".bg_wellcome_1").css("background-color","rgb(226, 242, 211");
-        $(".category1").removeClass("category1");
+        $(".category1").removeClass("typeclass");
         $(".category2").removeClass("typeclass");
         $(".category3").addClass("typeclass");
         $(".category4").removeClass("typeclass");
@@ -60,7 +60,7 @@ $(document).ready(function(){
         $(".mainEvent6").hide();
         $(".mainEvent7").hide();
         $(".bg_wellcome_1").css("background-color","rgb(218, 236, 240)");
-        $(".category1").removeClass("category1");
+        $(".category1").removeClass("typeclass");
         $(".category2").removeClass("typeclass");
         $(".category3").removeClass("typeclass");
         $(".category4").addClass("typeclass");
@@ -77,7 +77,7 @@ $(document).ready(function(){
         $(".mainEvent6").hide();
         $(".mainEvent7").hide();
         $(".bg_wellcome_1").css("background-color","rgb(248, 244, 216)");
-        $(".category1").removeClass("category1");
+        $(".category1").removeClass("typeclass");
         $(".category2").removeClass("typeclass");
         $(".category3").removeClass("typeclass");
         $(".category4").removeClass("typeclass");
@@ -94,7 +94,7 @@ $(document).ready(function(){
         $(".mainEvent6").show();
         $(".mainEvent7").hide();
         $(".bg_wellcome_1").css("background-color","rgb(222, 243, 228)");
-        $(".category1").removeClass("category1");
+        $(".category1").removeClass("typeclass");
         $(".category2").removeClass("typeclass");
         $(".category3").removeClass("typeclass");
         $(".category4").removeClass("typeclass");
@@ -111,7 +111,7 @@ $(document).ready(function(){
         $(".mainEvent6").hide();
         $(".mainEvent7").show();
         $(".bg_wellcome_1").css("background-color","rgb(251, 234, 239)");
-        $(".category1").removeClass("category1");
+        $(".category1").removeClass("typeclass");
         $(".category2").removeClass("typeclass");
         $(".category3").removeClass("typeclass");
         $(".category4").removeClass("typeclass");
@@ -137,6 +137,7 @@ $(document).ready(function(){
         $(".rising_btn_prev").css("display","none");
         $(".rising_btn_next").css("display","none");
     });
+    
     $(".rising_btn_next").hover(function(){
         $(".rising_btn_prev").css("display","block");
         $(".rising_btn_next").css("display","block");
