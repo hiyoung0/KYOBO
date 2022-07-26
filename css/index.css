@@ -65,6 +65,13 @@ a {
   padding: 3px;
   margin-right: 10px;
 }
+.top_head .top .nav .nav_left ul li i {
+  margin-left: 5px;
+}
+.top_head .top .nav .nav_left ul .li_hover:hover a {
+  color: #3c5fdf;
+  text-decoration: underline;
+}
 .top_head .top .nav .nav_right ul {
   float: right;
 }
@@ -318,6 +325,13 @@ a {
 .bg_wellcome_1 .content_top .mainEvent1 .link_book:hover {
   background-color: rgba(0, 0, 0, 0.05);
 }
+.bg_wellcome_1 .content_top .mainEvent2 {
+  background-color: rgb(161, 221, 192);
+  display: none;
+}
+.bg_wellcome_1 .content_top .mainEvent2 img {
+  margin: 5px -33px;
+}
 .bg_wellcome_1 .content_top .category {
   width: 720px;
   height: 38px;
@@ -336,11 +350,18 @@ a {
   padding-top: 8px;
   border: 1px solid #d7d7d7;
 }
-.bg_wellcome_1 .content_top .category li:nth-of-type(1) {
+.bg_wellcome_1 .content_top .category .category1 {
   background-color: #5e6b9e;
   border-top: 3px solid #353f67;
 }
-.bg_wellcome_1 .content_top .category li:nth-of-type(1) a {
+.bg_wellcome_1 .content_top .category .category1 a {
+  color: #fff;
+}
+.bg_wellcome_1 .content_top .category .typeclass {
+  background-color: #5e6b9e;
+  border-top: 3px solid #353f67;
+}
+.bg_wellcome_1 .content_top .category .typeclass a {
   color: #fff;
 }
 .bg_wellcome_1 .content_top .category li:nth-of-type(7) {
@@ -1012,7 +1033,7 @@ a {
 }
 .bg_wellcome_15 .notice_kyobo .box_notice .notice li a {
   font-size: 12px;
-  font-color: #767676;
+  color: #767676;
 }
 .bg_wellcome_15 .notice_kyobo .box_notice .notice li a:hover {
   color: #444;
@@ -1082,22 +1103,115 @@ a {
   width: 100%;
   height: 254px;
   margin-top: 22px;
+  background: #f5f5f5 url(http://image.kyobobook.co.kr/ink/images/common/bg_footer3.gif) 0 0 repeat-x;
 }
 .footer .foot_list {
   width: 100%;
   height: 44px;
   background-color: #8b8b8b;
 }
-.footer .ft_content {
+.footer .foot_list .ft_content {
   width: 950px;
   height: 44px;
   margin: 0 auto;
 }
-.footer .ft_content ul li {
+.footer .foot_list .ft_content ul li {
   float: left;
   color: #fff;
-  font-size: 13px;
+  height: 44px;
+  font-size: 12px;
+  padding-top: 12px;
+  padding-right: 8.5px;
 }
-.footer .ft_content ul li a {
+.footer .foot_list .ft_content ul li a {
   color: #fff;
+}
+.footer .foot_list .ft_content ul .ft_under a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.footer .foot_list .ft_content ul .ft_bg {
+  width: 150px;
+  background: #6d6d6d url(http://image.kyobobook.co.kr/ink/images/common/arr_shortcut2.png) no-repeat right 0;
+  padding-right: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 7px;
+  cursor: pointer;
+}
+.footer .foot_list .ft_content ul .ft_hover:hover a {
+  text-decoration: underline;
+}
+.footer .foot_list .ft_content ul .ft_hover:nth-of-type(1) {
+  padding-left: 10px;
+}
+.footer .foot_list .ft_content .logo_area {
+  padding-top: 21px;
+}
+.footer .foot_content {
+  width: 950px;
+  margin: 0 auto;
+}
+.footer .foot_content .logo_area {
+  padding-top: 21px;
+}
+.footer .foot_content .adress_footer {
+  float: left;
+  width: 460px;
+  margin: 18px 0 0 0;
+  color: #666;
+}
+.footer .foot_content .adress_footer address {
+  float: none;
+  font-size: 11px;
+  font-style: normal;
+  line-height: 18px;
+}
+.footer .foot_content .adress_footer address a {
+  color: #666;
+  text-decoration: underline;
+}
+.footer .foot_content .adress_footer address a:hover {
+  color: #3c5fdf;
+}
+.footer .foot_content .adress_footer address .copy {
+  margin-top: 18px;
+}
+.footer .foot_content .lg_area {
+  float: right;
+  width: 460px;
+  margin: 18px 0 0 20px;
+  font-size: 11px;
+  line-height: 18px;
+  color: #666;
+}
+.footer .foot_content .lg_area a {
+  color: #666;
+  text-decoration: underline;
+}
+.footer .foot_content .lg_area a:hover {
+  color: #3c5fdf;
+}
+.footer .foot_content .ISMS {
+  float: right;
+  width: 460px;
+  margin-top: 10px;
+  font-size: 11px;
+  position: relative;
+  color: #666;
+}
+.footer .foot_content .ISMS a {
+  background: url(http://image.kyobobook.co.kr/ink/images/common/mark_isms_02.png) no-repeat 0 0;
+  display: inline-block;
+  height: 50px;
+  padding: 10px 0 0 54px;
+  line-height: 15px;
+  color: #666;
+}
+.footer .foot_content .ISMS p {
+  position: absolute;
+  left: 168px;
+  top: 10px;
+  line-height: 1.5;
 }
