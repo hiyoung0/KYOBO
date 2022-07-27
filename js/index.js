@@ -1,4 +1,12 @@
 $(document).ready(function(){
+    //header&nav 
+    $(".close_img").click(function(){
+        $(".advertisement").hide();
+    });
+
+
+
+
     //bg_wellcome_1
     $(".category1").hover(function(){
         $(".mainEvent1").show();
@@ -119,6 +127,73 @@ $(document).ready(function(){
         $(".category6").removeClass("typeclass");
         $(".category7").addClass("typeclass");
     });
+
+
+
+
+    // bg_wellcome_5
+    $(".domestic").hover(function(){
+        $(".new_book_kblist1").show();
+        $(".new_book_kblist2").hide();
+        $(".new_book_kblist3").hide();
+        $(".new_book_kblist4").hide();
+        $(".new_book_kblist5").hide();
+        $(".domestic").addClass("mini_back");
+        $(".oversea").removeClass("mini_back");
+        $(".kb_ebooK").removeClass("mini_back");
+        $(".kb_sam").removeClass("mini_back");
+        $(".kb_album").removeClass("mini_back");
+    });
+    $(".oversea").hover(function(){
+        $(".new_book_kblist1").hide();
+        $(".new_book_kblist2").css("display","flex");
+        $(".new_book_kblist3").hide();
+        $(".new_book_kblist4").hide();
+        $(".new_book_kblist5").hide();
+        $(".domestic").removeClass("mini_back");
+        $(".oversea").addClass("mini_back");
+        $(".kb_ebooK").removeClass("mini_back");
+        $(".kb_sam").removeClass("mini_back");
+        $(".kb_album").removeClass("mini_back");
+    });
+    $(".kb_ebooK").hover(function(){
+        $(".new_book_kblist1").hide();
+        $(".new_book_kblist2").hide();
+        $(".new_book_kblist3").css("display","flex");
+        $(".new_book_kblist4").hide();
+        $(".new_book_kblist5").hide();
+        $(".domestic").removeClass("mini_back");
+        $(".oversea").removeClass("mini_back");
+        $(".kb_ebooK").addClass("mini_back");
+        $(".kb_sam").removeClass("mini_back");
+        $(".kb_album").removeClass("mini_back");
+    });
+    $(".kb_sam").hover(function(){
+        $(".new_book_kblist1").hide();
+        $(".new_book_kblist2").hide();
+        $(".new_book_kblist3").hide();
+        $(".new_book_kblist4").css("display","flex");
+        $(".new_book_kblist5").hide();
+        $(".domestic").removeClass("mini_back");
+        $(".oversea").removeClass("mini_back");
+        $(".kb_ebooK").removeClass("mini_back");
+        $(".kb_sam").addClass("mini_back");
+        $(".kb_album").removeClass("mini_back");
+    });
+    $(".kb_album").hover(function(){
+        $(".new_book_kblist1").hide();
+        $(".new_book_kblist2").hide();
+        $(".new_book_kblist3").hide();
+        $(".new_book_kblist4").hide();
+        $(".new_book_kblist5").css("display","flex");
+        $(".domestic").removeClass("mini_back");
+        $(".oversea").removeClass("mini_back");
+        $(".kb_ebooK").removeClass("mini_back");
+        $(".kb_sam").removeClass("mini_back");
+        $(".kb_album").addClass("mini_back");
+    });
+
+
 
 
     //bg_wellcome_8

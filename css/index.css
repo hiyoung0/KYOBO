@@ -174,6 +174,35 @@ a {
   bottom: 2px;
   right: 0;
 }
+.top_head .top .ad .list_button .btn_prev {
+  width: 18px;
+  height: 15px;
+  border: 1px solid #d5d5d5;
+  background: #fff url(http://image.kyobobook.co.kr/ink/images/gnb/nav6_btn_sprite.png) no-repeat 0 -82px;
+  vertical-align: middle;
+  margin-left: 2px;
+  cursor: pointer;
+}
+.top_head .top .ad .list_button .btn_prev:hover {
+  border-color: #aaa;
+  background-color: #f8f8f8;
+  z-index: 2;
+}
+.top_head .top .ad .list_button .btn_next {
+  width: 18px;
+  height: 15px;
+  border: 1px solid #d5d5d5;
+  background: #fff url(http://image.kyobobook.co.kr/ink/images/gnb/nav6_btn_sprite.png) no-repeat 0 -82px;
+  background-position: -40px -82px;
+  vertical-align: middle;
+  margin-left: -5px;
+  cursor: pointer;
+}
+.top_head .top .ad .list_button .btn_next:hover {
+  border-color: #aaa;
+  background-color: #f8f8f8;
+  z-index: 2;
+}
 
 .main_list {
   width: 100%;
@@ -908,7 +937,7 @@ a {
   padding: 2px 5px 2px;
   margin-right: 5px;
 }
-.bg_wellcome_5 .sub_both .box_kyobo .mini_kb a:nth-of-type(1) h3 {
+.bg_wellcome_5 .sub_both .box_kyobo .mini_kb .mini_back h3 {
   background-color: #9cafe9;
   color: #fff;
 }
@@ -931,6 +960,7 @@ a {
   padding: 30px 25px 0;
   text-align: center;
   transition: border-color 0.2s linear;
+  position: relative;
 }
 .bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist1 .kblist img {
   border: 1px solid #888;
@@ -956,9 +986,241 @@ a {
   font-size: 12px;
   padding-top: 10px;
 }
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist1 .kblist .more_ex {
+  width: 122px;
+  height: 176px;
+  background: url(http://image.kyobobook.co.kr/ink/images/common/bg_blue90.png);
+  position: absolute;
+  top: 30px;
+  left: 48px;
+  display: none;
+  transition: all 0.2s linear;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist1 .kblist .more_ex .info {
+  padding-top: 37px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist1 .kblist .more_ex .info span a {
+  font-size: 12px;
+  color: #fff;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist1 .kblist .more_ex .cart_button .btn_cart {
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  border: 1px solid #fff;
+  overflow: hidden;
+  background: url(http://image.kyobobook.co.kr/ink/images/welcome/btn_layer_option.png) no-repeat 0 -2px;
+  transition: background-color 0.2s linear;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist1 .kblist .more_ex .cart_button .btn_cart:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist1 .kblist .more_ex .cart_button .btn_info {
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  border: 1px solid #fff;
+  overflow: hidden;
+  background: url(http://image.kyobobook.co.kr/ink/images/welcome/btn_layer_option.png) no-repeat 0 0;
+  background-position: -35px -2px;
+  transition: background-color 0.2s linear;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist1 .kblist .more_ex .cart_button .btn_info:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist1 .kblist .more_ex:hover a {
+  text-decoration: underline;
+}
 .bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist1 .kblist:hover {
   border: 5px solid #5e6b9e;
   padding: 26px 21px 0;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist1 .kblist:hover .more_ex {
+  top: 26px;
+  left: 44px;
+  display: block;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist2 {
+  width: 950px;
+  height: 309px;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist2 .kblist {
+  width: 220px;
+  height: 300px;
+  border: 1px solid #dadada;
+  padding: 30px 25px 0;
+  text-align: center;
+  transition: border-color 0.2s linear;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist2 .kblist img {
+  border: 1px solid #888;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist2 .kblist .group {
+  font-size: 11px;
+  color: #3e74ab;
+  padding-top: 10px;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist2 .kblist .kblist_title5 {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist2 .kblist .kblist_title6 {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist2 .kblist .kblist_title7 {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist2 .kblist .kblist_title8 {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist2 .kblist:hover {
+  border: 5px solid #5e6b9e;
+  padding: 26px 21px 0;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist3 {
+  width: 950px;
+  height: 309px;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist3 .kblist {
+  width: 220px;
+  height: 300px;
+  border: 1px solid #dadada;
+  padding: 30px 25px 0;
+  text-align: center;
+  transition: border-color 0.2s linear;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist3 .kblist img {
+  border: 1px solid #888;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist3 .kblist .group {
+  font-size: 11px;
+  color: #3e74ab;
+  padding-top: 10px;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist3 .kblist .kblist_title9 {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist3 .kblist .kblist_title10 {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist3 .kblist .kblist_title11 {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist3 .kblist .kblist_title12 {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist3 .kblist:hover {
+  border: 5px solid #5e6b9e;
+  padding: 26px 21px 0;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist4 {
+  width: 950px;
+  height: 309px;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist4 .kblist {
+  width: 220px;
+  height: 300px;
+  border: 1px solid #dadada;
+  padding: 30px 25px 0;
+  text-align: center;
+  transition: border-color 0.2s linear;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist4 .kblist img {
+  border: 1px solid #888;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist4 .kblist .group {
+  font-size: 11px;
+  color: #3e74ab;
+  padding-top: 10px;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist4 .kblist .kblist_title13 {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist4 .kblist .kblist_title14 {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist4 .kblist .kblist_title15 {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist4 .kblist .kblist_title16 {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist4 .kblist:hover {
+  border: 5px solid #5e6b9e;
+  padding: 26px 21px 0;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist5 {
+  width: 950px;
+  height: 309px;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist5 .kblist {
+  width: 220px;
+  height: 300px;
+  border: 1px solid #dadada;
+  padding: 60px 25px 0;
+  text-align: center;
+  transition: border-color 0.2s linear;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist5 .kblist img {
+  width: 127px;
+  height: 127px;
+  border: 1px solid #888;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist5 .kblist .group {
+  font-size: 11px;
+  color: #3e74ab;
+  padding-top: 10px;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist5 .kblist .kblist_title17 {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist5 .kblist .kblist_title18 {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist5 .kblist .kblist_title19 {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist5 .kblist .kblist_title20 {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.bg_wellcome_5 .sub_both .box_kyobo .new_book_kblist5 .kblist:hover {
+  border: 5px solid #5e6b9e;
+  padding: 56px 21px 0;
 }
 
 .bg_wellcome_6 {

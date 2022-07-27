@@ -18,7 +18,7 @@
             <div class="banner">
                 <img src="img/bnD_top1.jpg" alt="배너">
                 <div class="close">
-                    <img src="img/btn_close.gif" alt="close">
+                    <img src="img/btn_close.gif" alt="close" class="close_img">
                 </div>
             </div>
             <div class="banner_color"></div>
@@ -81,8 +81,8 @@
                                 <strong class="current">3</strong>
                                 /4
                             </span>
-                            <button type="button" class="btn_prev">&lt;</button>
-                            <button type="button" class="btn_next">&gt;</button>
+                            <button type="button" class="btn_prev"></button>
+                            <button type="button" class="btn_next"></button>
                         </div>
                     </div>
                 </div>
@@ -366,15 +366,25 @@
             <div class="box_kyobo">
                 <h2><a href="#">화제의 신간</a></h2>
                 <div class="mini_kb">
-                    <a href="#"><h3>국내도서</h3></a>
-                    <a href="#"><h3>외국도서</h3></a>
-                    <a href="#"><h3>eBook</h3></a>
-                    <a href="#"><h3>sam</h3></a>
-                    <a href="#"><h3>음반/기프트</h3></a>
+                    <a href="#" class="domestic mini_back"><h3>국내도서</h3></a>
+                    <a href="#" class="oversea"><h3>외국도서</h3></a>
+                    <a href="#" class="kb_ebooK"><h3>eBook</h3></a>
+                    <a href="#" class="kb_sam"><h3>sam</h3></a>
+                    <a href="#" class="kb_album"><h3>음반/기프트</h3></a>
                 </div>
+                <!-- doemestic -->
                 <div class="new_book_kblist1">
                     <div class="kblist">
                         <a href="#" class="new_book_box1"></a>
+                        <div class="more_ex">
+                            <div class="info">
+                                <span><a href="#">돌보는 이가 있을 때 묘지는 아늑한 정원이 된다</a></span>
+                            </div>
+                            <div class="cart_button">
+                                <a href="#" class="btn_cart"></a>
+                                <a href="#" class="btn_info"></a>
+                            </div>
+                        </div>
                         <p class="group">[소설]</p>
                         <h4 class="kblist_title1"></h4>
                     </div>
@@ -392,6 +402,98 @@
                         <a href="#" class="new_book_box4"></a>
                         <p class="group">[정치/사회]</p>
                         <h4 class="kblist_title4"></h4>
+                    </div>
+                </div>
+                <!-- oversea -->
+                <div class="new_book_kblist2">
+                    <div class="kblist">
+                        <a href="#" class="new_book_box5"></a>
+                        <p class="group">[인문/사회]</p>
+                        <h4 class="kblist_title5"></h4>
+                    </div>
+                    <div class="kblist">
+                        <a href="#" class="new_book_box6"></a>
+                        <p class="group">[문학]</p>
+                        <h4 class="kblist_title6"></h4>
+                    </div>
+                    <div class="kblist">
+                        <a href="#" class="new_book_box7"></a>
+                        <p class="group">[과학/기술]</p>
+                        <h4 class="kblist_title7"></h4>
+                    </div>
+                    <div class="kblist">
+                        <a href="#" class="new_book_box8"></a>
+                        <p class="group">[잡지]</p>
+                        <h4 class="kblist_title8"></h4>
+                    </div>
+                </div>
+                <!-- kb_ebook -->
+                <div class="new_book_kblist3">
+                    <div class="kblist">
+                        <a href="#" class="new_book_box9"></a>
+                        <p class="group">[성공스토리]</p>
+                        <h4 class="kblist_title9"></h4>
+                    </div>
+                    <div class="kblist">
+                        <a href="#" class="new_book_box10"></a>
+                        <p class="group">[생활요리]</p>
+                        <h4 class="kblist_title10"></h4>
+                    </div>
+                    <div class="kblist">
+                        <a href="#" class="new_book_box11"></a>
+                        <p class="group">[일본소설일반]</p>
+                        <h4 class="kblist_title11"></h4>
+                    </div>
+                    <div class="kblist">
+                        <a href="#" class="new_book_box12"></a>
+                        <p class="group">[해외소설]</p>
+                        <h4 class="kblist_title12"></h4>
+                    </div>
+                </div>
+                <!-- kb_sam -->
+                <div class="new_book_kblist4">
+                    <div class="kblist">
+                        <a href="#" class="new_book_box13"></a>
+                        <p class="group">[재테크전략]</p>
+                        <h4 class="kblist_title13"></h4>
+                    </div>
+                    <div class="kblist">
+                        <a href="#" class="new_book_box14"></a>
+                        <p class="group">[사회/정치/법]</p>
+                        <h4 class="kblist_title14"></h4>
+                    </div>
+                    <div class="kblist">
+                        <a href="#" class="new_book_box15"></a>
+                        <p class="group">[한국에세이]</p>
+                        <h4 class="kblist_title15"></h4>
+                    </div>
+                    <div class="kblist">
+                        <a href="#" class="new_book_box16"></a>
+                        <p class="group">[한국소설일반]</p>
+                        <h4 class="kblist_title16"></h4>
+                    </div>
+                </div>
+                <!-- kb_album -->
+                <div class="new_book_kblist5">
+                    <div class="kblist">
+                        <a href="#" class="new_book_box17"><img src="img/2552481.jpg" alt="album"></a>
+                        <p class="group">[가요]</p>
+                        <h4 class="kblist_title17">FOREVER 1 [정규 7집] [스페셜반]</h4>
+                    </div>
+                    <div class="kblist">
+                        <a href="#" class="new_book_box18"><img src="img/2551712.jpg" alt="album"></a>
+                        <p class="group">[클래식]</p>
+                        <h4 class="kblist_title18">COMPLETE RECORDINGS <br> ON ARCHIV PRODUKTION</h4>
+                    </div>
+                    <div class="kblist">
+                        <a href="#" class="new_book_box19"><img src="img/2548984.jpg" alt="album"></a>
+                        <p class="group">[가요]</p>
+                        <h4 class="kblist_title19">LOVE DIVE [싱글 2집]</h4>
+                    </div>
+                    <div class="kblist">
+                        <a href="#" class="new_book_box20"><img src="img/2552409.jpg" alt="album"></a>
+                        <p class="group">[가요]</p>
+                        <h4 class="kblist_title20">PAUSE [2022 SUMMER PHOTOBOOK] [2종 세트]</h4>
                     </div>
                 </div>
             </div>

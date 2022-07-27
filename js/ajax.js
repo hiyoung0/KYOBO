@@ -97,7 +97,213 @@ $.ajax({
 
     });
 
+$.ajax({
+    method: "GET",
+    url: "https://dapi.kakao.com/v3/search/book?target=title",
+    data: { query: "Minor Feelings" },
+    headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+})
+    .done(function (msg) {
 
+        $(".new_book_box5").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+        $(".kblist_title5").append(msg.documents[0].title);
+
+    });
+
+$.ajax({
+    method: "GET",
+    url: "https://dapi.kakao.com/v3/search/book?target=title",
+    data: { query: "Cursed Bunny" },
+    headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+})
+    .done(function (msg) {
+
+        $(".new_book_box6").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+        $(".kblist_title6").append(msg.documents[0].title);
+
+    });
+
+$.ajax({
+    method: "GET",
+    url: "https://dapi.kakao.com/v3/search/book?target=title",
+    data: { query: "How to Prevent the Next" },
+    headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+})
+    .done(function (msg) {
+
+        $(".new_book_box7").append("<img src='" + msg.documents[1].thumbnail + "'/>");
+        $(".kblist_title7").append(msg.documents[1].title);
+
+    });
+
+$.ajax({
+    method: "GET",
+    url: "https://dapi.kakao.com/v3/search/book?target=title",
+    data: { query: "글로우" },
+    headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+})
+    .done(function (msg) {
+
+        $(".new_book_box8").append("<img src='" + msg.documents[5].thumbnail + "'/>");
+        $(".kblist_title8").append(msg.documents[1].title);
+
+    });
+
+$.ajax({
+    method: "GET",
+    url: "https://dapi.kakao.com/v3/search/book?target=title",
+    data: { query: "그깟 떡볶이" },
+    headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+})
+    .done(function (msg) {
+
+        $(".new_book_box9").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+        $(".kblist_title9").append(msg.documents[0].title);
+
+    });
+
+$.ajax({
+    method: "GET",
+    url: "https://dapi.kakao.com/v3/search/book?target=title",
+    data: { query: "열두 달 향신료 카레" },
+    headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+})
+    .done(function (msg) {
+
+        $(".new_book_box10").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+        $(".kblist_title10").append(msg.documents[0].title);
+
+    });
+
+$.ajax({
+    method: "GET",
+    url: "https://dapi.kakao.com/v3/search/book?target=title",
+    data: { query: "여기는 커스터드" },
+    headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+})
+    .done(function (msg) {
+
+        $(".new_book_box11").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+        $(".kblist_title11").append(msg.documents[0].title);
+
+    });
+
+$.ajax({
+    method: "GET",
+    url: "https://dapi.kakao.com/v3/search/book?target=title",
+    data: { query: "틸" },
+    headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+})
+    .done(function (msg) {
+
+        $(".new_book_box12").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+        $(".kblist_title12").append(msg.documents[0].title);
+
+    });
+
+$.ajax({
+    method: "GET",
+    url: "https://dapi.kakao.com/v3/search/book?target=title",
+    data: { query: "월 10만원 그림 투자 재테크" },
+    headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+})
+    .done(function (msg) {
+
+        $(".new_book_box13").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+        $(".kblist_title13").append(msg.documents[0].title);
+
+    });
+
+$.ajax({
+    method: "GET",
+    url: "https://dapi.kakao.com/v3/search/book?target=title",
+    data: { query: "식량위기" },
+    headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+})
+    .done(function (msg) {
+
+        $(".new_book_box14").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+        $(".kblist_title14").append(msg.documents[0].title);
+
+    });
+
+$.ajax({
+    method: "GET",
+    url: "https://dapi.kakao.com/v3/search/book?target=title",
+    data: { query: "보이지 않는 곳에서" },
+    headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+})
+    .done(function (msg) {
+
+        $(".new_book_box15").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+        $(".kblist_title15").append(msg.documents[0].title);
+
+    });
+
+$.ajax({
+    method: "GET",
+    url: "https://dapi.kakao.com/v3/search/book?target=title",
+    data: { query: "하쿠다 사진관" },
+    headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+})
+    .done(function (msg) {
+
+        $(".new_book_box16").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+        $(".kblist_title16").append(msg.documents[0].title);
+
+    });
+
+// $.ajax({
+//     method: "GET",
+//     url: "https://dapi.kakao.com/v3/search/book?target=title",
+//     data: { query: "FOREVER 1 [정규 7집] [스페셜반]" },
+//     headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+// })
+//     .done(function (msg) {
+
+//         $(".new_book_box17").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+//         $(".kblist_title17").append(msg.documents[0].title);
+
+//     });
+
+// $.ajax({
+//     method: "GET",
+//     url: "https://dapi.kakao.com/v3/search/book?target=title",
+//     data: { query: "글로우" },
+//     headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+// })
+//     .done(function (msg) {
+
+//         $(".new_book_box18").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+//         $(".kblist_title18").append(msg.documents[0].title);
+
+//     });
+
+// $.ajax({
+//     method: "GET",
+//     url: "https://dapi.kakao.com/v3/search/book?target=title",
+//     data: { query: "글로우" },
+//     headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+// })
+//     .done(function (msg) {
+
+//         $(".new_book_box19").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+//         $(".kblist_title19").append(msg.documents[0].title);
+
+//     });
+
+// $.ajax({
+//     method: "GET",
+//     url: "https://dapi.kakao.com/v3/search/book?target=title",
+//     data: { query: "글로우" },
+//     headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+// })
+//     .done(function (msg) {
+
+//         $(".new_book_box20").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+//         $(".kblist_title20").append(msg.documents[0].title);
+
+//     });
 
 
  //.sample_kyobo

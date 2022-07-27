@@ -223,6 +223,40 @@ a {
                 position:absolute;
                 bottom:2px;
                 right:0;
+
+                .btn_prev {
+                    width:18px;
+                    height:15px;
+                    border:1px solid #d5d5d5;
+                    background:#fff url(http://image.kyobobook.co.kr/ink/images/gnb/nav6_btn_sprite.png) no-repeat 0 -82px;
+                    vertical-align:middle;
+                    margin: {
+                        left:2px;
+                    }
+                    cursor: pointer;
+                }
+                .btn_prev:hover {
+                    border-color:#aaa;
+                    background-color:#f8f8f8;
+                    z-index:2;
+                }
+                .btn_next {
+                    width:18px;
+                    height:15px;
+                    border:1px solid #d5d5d5;
+                    background: #fff url(http://image.kyobobook.co.kr/ink/images/gnb/nav6_btn_sprite.png) no-repeat 0 -82px;
+                    background-position: -40px -82px;
+                    vertical-align:middle;
+                    margin: {
+                        left:-5px;
+                    }
+                    cursor: pointer;
+                }
+                .btn_next:hover {
+                    border-color:#aaa;
+                    background-color:#f8f8f8;
+                    z-index:2;
+                }
             }
         }
     }
@@ -1173,7 +1207,7 @@ a {
                         right:5px;
                     }
                 }
-                a:nth-of-type(1) {
+                .mini_back {
                    h3 { 
                     background-color:#9cafe9;
                     color:#fff;
@@ -1203,6 +1237,7 @@ a {
                     padding:30px 25px 0;
                     text-align:center;
                     transition:border-color 0.2s linear;
+                    position:relative;
 
                     img {
                         border:1px solid #888;
@@ -1251,10 +1286,364 @@ a {
                             }
                         }
                     }
+
+                    .more_ex {
+                        width:122px;
+                        height:176px;
+                        background: url(http://image.kyobobook.co.kr/ink/images/common/bg_blue90.png);
+                        position:absolute;
+                        top:30px;
+                        left:48px;
+                        display:none;
+                        transition: all 0.2s linear;
+
+                        .info {
+                            padding: {
+                                top:37px;
+                                left:10px;
+                                right:10px;
+                                bottom:20px;
+                            }
+                            cursor:pointer;
+                            span {
+                                a {
+                                    font-size:12px;
+                                    color:#fff;
+                                }
+                            }
+                        }
+                        .cart_button {
+                            .btn_cart {
+                                display:inline-block;
+                                width:33px;
+                                height:33px;
+                                border:1px solid #fff;
+                                overflow:hidden;
+                                background: url(http://image.kyobobook.co.kr/ink/images/welcome/btn_layer_option.png) no-repeat 0 -2px;
+                                transition:background-color 0.2s linear;
+                            }
+                            .btn_cart:hover {
+                                background-color: rgba(0,0,0,0.2);
+                            }
+                            .btn_info {
+                                display:inline-block;
+                                width:33px;
+                                height:33px;
+                                border:1px solid #fff;
+                                overflow:hidden;
+                                background: url(http://image.kyobobook.co.kr/ink/images/welcome/btn_layer_option.png) no-repeat 0 0;
+                                background-position: -35px -2px;
+                                transition:background-color 0.2s linear;
+                            }              
+                            .btn_info:hover {
+                                background-color: rgba(0,0,0,0.2);
+                            }              
+                        }
+                    }
+                    .more_ex:hover {
+                        a {
+                            text-decoration:underline;
+                        }
+                    }
                 }
                 .kblist:hover {
                     border:5px solid #5e6b9e;
                     padding:26px 21px 0;
+                    .more_ex {
+                        top:26px;
+                        left:44px;
+                        display:block;
+                    }
+                }
+            }
+
+            .new_book_kblist2 {
+                width:950px;
+                height:309px;
+                display:none;
+                align-items:center;
+                justify-content:space-between;
+                margin: {
+                    top:10px;
+                }
+
+                .kblist {
+                    width:220px;
+                    height:300px;
+                    border:1px solid #dadada;
+                    padding:30px 25px 0;
+                    text-align:center;
+                    transition:border-color 0.2s linear;
+
+                    img {
+                        border:1px solid #888;
+                    }
+
+                    .group {
+                        font: {
+                            size:11px;
+                        }
+                        color:#3e74ab;
+                        padding: {
+                            top:10px;
+                        }
+                    }
+                    .kblist_title {
+                        &5 {
+                            font: {
+                                size:12px;
+                            }
+                            padding: {
+                                top:10px;
+                            }
+                        }
+                        &6 {
+                            font: {
+                                size:12px;
+                            }
+                            padding: {
+                                top:10px;
+                            }
+                        }
+                        &7 {
+                            font: {
+                                size:12px;
+                            }
+                            padding: {
+                                top:10px;
+                            }
+                        }
+                        &8 {
+                            font: {
+                                size:12px;
+                            }
+                            padding: {
+                                top:10px;
+                            }
+                        }
+                    }
+                }
+                .kblist:hover {
+                    border:5px solid #5e6b9e;
+                    padding:26px 21px 0;
+                }
+            }
+
+            .new_book_kblist3 {
+                width:950px;
+                height:309px;
+                display:none;
+                align-items:center;
+                justify-content:space-between;
+                margin: {
+                    top:10px;
+                }
+
+                .kblist {
+                    width:220px;
+                    height:300px;
+                    border:1px solid #dadada;
+                    padding:30px 25px 0;
+                    text-align:center;
+                    transition:border-color 0.2s linear;
+
+                    img {
+                        border:1px solid #888;
+                    }
+
+                    .group {
+                        font: {
+                            size:11px;
+                        }
+                        color:#3e74ab;
+                        padding: {
+                            top:10px;
+                        }
+                    }
+                    .kblist_title {
+                        &9 {
+                            font: {
+                                size:12px;
+                            }
+                            padding: {
+                                top:10px;
+                            }
+                        }
+                        &10 {
+                            font: {
+                                size:12px;
+                            }
+                            padding: {
+                                top:10px;
+                            }
+                        }
+                        &11 {
+                            font: {
+                                size:12px;
+                            }
+                            padding: {
+                                top:10px;
+                            }
+                        }
+                        &12 {
+                            font: {
+                                size:12px;
+                            }
+                            padding: {
+                                top:10px;
+                            }
+                        }
+                    }
+                }
+                .kblist:hover {
+                    border:5px solid #5e6b9e;
+                    padding:26px 21px 0;
+                }
+            }
+
+            .new_book_kblist4 {
+                width:950px;
+                height:309px;
+                display:none;
+                align-items:center;
+                justify-content:space-between;
+                margin: {
+                    top:10px;
+                }
+
+                .kblist {
+                    width:220px;
+                    height:300px;
+                    border:1px solid #dadada;
+                    padding:30px 25px 0;
+                    text-align:center;
+                    transition:border-color 0.2s linear;
+
+                    img {
+                        border:1px solid #888;
+                    }
+
+                    .group {
+                        font: {
+                            size:11px;
+                        }
+                        color:#3e74ab;
+                        padding: {
+                            top:10px;
+                        }
+                    }
+                    .kblist_title {
+                        &13 {
+                            font: {
+                                size:12px;
+                            }
+                            padding: {
+                                top:10px;
+                            }
+                        }
+                        &14 {
+                            font: {
+                                size:12px;
+                            }
+                            padding: {
+                                top:10px;
+                            }
+                        }
+                        &15 {
+                            font: {
+                                size:12px;
+                            }
+                            padding: {
+                                top:10px;
+                            }
+                        }
+                        &16 {
+                            font: {
+                                size:12px;
+                            }
+                            padding: {
+                                top:10px;
+                            }
+                        }
+                    }
+                }
+                .kblist:hover {
+                    border:5px solid #5e6b9e;
+                    padding:26px 21px 0;
+                }
+            }
+
+            .new_book_kblist5 {
+                width:950px;
+                height:309px;
+                display:none;
+                align-items:center;
+                justify-content:space-between;
+                margin: {
+                    top:10px;
+                }
+
+                .kblist {
+                    width:220px;
+                    height:300px;
+                    border:1px solid #dadada;
+                    padding:60px 25px 0;
+                    text-align:center;
+                    transition:border-color 0.2s linear;
+
+                    img {
+                        width:127px;
+                        height:127px;
+                        border:1px solid #888;
+                    }
+
+                    .group {
+                        font: {
+                            size:11px;
+                        }
+                        color:#3e74ab;
+                        padding: {
+                            top:10px;
+                        }
+                    }
+                    .kblist_title {
+                        &17 {
+                            font: {
+                                size:12px;
+                            }
+                            padding: {
+                                top:10px;
+                            }
+                        }
+                        &18 {
+                            font: {
+                                size:12px;
+                            }
+                            padding: {
+                                top:10px;
+                            }
+                        }
+                        &19 {
+                            font: {
+                                size:12px;
+                            }
+                            padding: {
+                                top:10px;
+                            }
+                        }
+                        &20 {
+                            font: {
+                                size:12px;
+                            }
+                            padding: {
+                                top:10px;
+                            }
+                        }
+                    }
+                }
+                .kblist:hover {
+                    border:5px solid #5e6b9e;
+                    padding:56px 21px 0;
                 }
             }
         }
