@@ -202,7 +202,7 @@ a {
   height: 50px;
   float: left;
 }
-.main_list .container .item1 li:nth-of-type(1) {
+.main_list .container .item1 .menu {
   background-color: #353f67;
   color: #fff;
   cursor: pointer;
@@ -218,6 +218,9 @@ a {
   padding-left: 18px;
   padding-right: 40px;
 }
+.main_list .container .item1 .ebook {
+  width: 90px;
+}
 .main_list .container .item1 .ebook:hover {
   background-color: #fff;
   color: #353f67;
@@ -230,6 +233,9 @@ a {
 .main_list .container .item1 .ebook:hover a {
   color: #353f67;
 }
+.main_list .container .item1 .gift {
+  width: 90px;
+}
 .main_list .container .item1 .gift:hover {
   background-color: #fff;
   color: #353f67;
@@ -241,6 +247,9 @@ a {
 }
 .main_list .container .item1 .gift:hover a {
   color: #353f67;
+}
+.main_list .container .item1 .album {
+  width: 74px;
 }
 .main_list .container .item1 .album:hover {
   background-color: #fff;

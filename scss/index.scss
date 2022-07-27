@@ -256,7 +256,7 @@ a {
                 height:50px;
                 float:left;
             }
-            li:nth-of-type(1) {
+            .menu {
                 background-color:#353f67;
                 color:#fff;
                 cursor:pointer;
@@ -280,6 +280,9 @@ a {
                     right:40px;
                 }
             }
+            .ebook {
+                width:90px;
+            }
             .ebook:hover {
                 background-color:#fff;
                 color:#353f67;
@@ -292,6 +295,9 @@ a {
                     color:#353f67;
                 }
             }
+            .gift {
+                width:90px;
+            }
             .gift:hover {
                 background-color:#fff;
                 color:#353f67;
@@ -303,6 +309,9 @@ a {
                 a {
                     color:#353f67;
                 }
+            }
+            .album {
+                width:74px;
             }
             .album:hover {
                 background-color:#fff;
