@@ -308,9 +308,9 @@ $.ajax({
 })
     .done(function (msg) {
 
-        $(".ajax_img").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+        $(".ajax_cover").append("<img src='" + msg.documents[0].thumbnail + "'/>");
         $(".ajax_title_box").append(msg.documents[0].title);
         $(".ajax_author").append(msg.documents[0].authors[0]);
-        $(".ajax_publisher").append(msg.documents[0].publisher);
+        $(".ajax_publisher").append("<a href='#'>"+msg.documents[0].publisher+"</a>");
 
     });

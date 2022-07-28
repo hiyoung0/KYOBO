@@ -472,6 +472,186 @@ a {
 .section2 {
     width:950px;
     height:818px;
-    background-color:pink;
+    // background-color:pink;
     margin:0 auto;
+
+    .book_explain {        
+        .box_detail_point {
+            display:relative;
+            float:right;
+            width:705px;
+            height:174px;
+            padding: {
+                bottom:30px;
+            }
+            border: {
+                bottom:1px solid #ddd;
+            }
+
+            .icon {
+                height:16px;
+                margin: {
+                    bottom:5px;
+                }
+                img {
+                    vertical-align: top;
+                    margin: {
+                        right:2px;
+                    }
+                }
+            }
+
+            .detail_title {
+                color:#3a60df;
+                display:inline;
+                margin: {
+                    right:10px;
+                }
+                font-size:24px;
+                line-height:27px;
+                strong {
+                    font: {
+                        weight:bold;
+                    }
+                }
+                span {
+                    font: {
+                        size:14px;
+                    }
+                    color:#555;
+                }
+                
+            }
+            
+            .detail_author {
+                color:#777;
+                margin: {
+                    top:10px;
+                }
+                line-height:18px;
+                font: {
+                    size:12px;
+                }
+                
+                span {
+                    font: {
+                        size:12px;
+                    }
+                    margin:0 1px;
+                }
+                a {
+                    color:#777;
+                }
+                a:hover {
+                    text-decoration:underline;
+                    color:#3c5fdf;
+                }
+                .line {
+                    color:#aaa;
+                }
+            }
+
+            .review {
+                margin: {
+                    top:10px;
+                }
+                .review_klover {
+                    display:inline-block;
+
+                    .klover {
+                        width:54px;
+                        height:14px;
+                        padding-right:0;
+
+                        .mask_klover {
+                            display:inline-block;
+                            text-indent:-9999px;
+                            width:54px;
+                            height:14px;
+                            background-image: url(http://image.kyobobook.co.kr/ink/images/common/ico_klover2.gif);
+                            background-repeat: no-repeat;
+                            background-position: 0 0;
+                        }
+                    }
+                }
+            }
+
+            .rank {
+                .popup_load {
+                    .midium_btn {
+                        padding: {
+                            right:25px;
+                        }
+                        background: url(http://image.kyobobook.co.kr/ink/images/common/icon_open_r.gif) no-repeat right center;
+                    }
+                }
+            }
+        }
+
+        .box_detail_info {
+            float:left;
+            width:200px;
+            .box_detail_cover {
+                text-align:center;
+
+                ul {
+                    margin:10px 0 8px;
+                    li {
+                        display:inline-block;
+                        width:96px;
+                        text-align:center;
+                        font: {
+                            size:11px;
+                        }
+                        a {
+                            display:inline-block;
+                            padding:4px 5px 2px;
+                            color:#666;
+                        }
+                        a:hover {
+                            text-decoration:underline;
+                            color:#3c5fdf;
+                        }
+                    }
+                }
+
+                .cover {
+                    width:200px;
+                    height:292px;
+                    border:1px solid #dadada;
+                    .ajax_cover {
+                        img {
+                            width:199px;
+                            height:292px;
+                        }
+                        span {
+                            display:none;
+                        }
+                    }
+                }
+            }
+
+            .box_detail_position {
+                position:relative;
+                margin: {
+                    top:10px;
+                }
+                a {
+                    display:block;
+                    text-align:center;
+                    padding:5px 0 5px;
+                    border:1px solid #aaa;
+                    color:#f84450;
+                    font: {
+                        size:12px;
+                        weight:bold;
+                    }
+                    background: url(http://image.kyobobook.co.kr/ink/images/welcome/icon_more.gif) no-repeat 165px center;
+                }
+                a:hover {
+                    border-color: #888;
+                }
+            }
+        }
+    }
 }
