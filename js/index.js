@@ -4,6 +4,24 @@ $(document).ready(function(){
         $(".advertisement").hide();
     });
 
+    var n=1;
+    $(".btn_next").click(function(){
+        n++;
+        if(n==5){
+            n=1
+        }
+        $(".banner_change").attr("src","img/mov"+n+".jpg");
+        $(".current").html(n);
+    });
+    $(".btn_prev").click(function(){
+        n--;
+        if(n==0){
+            n=4
+        }
+        $(".banner_change").attr("src","img/mov"+n+".jpg");
+        $(".current").html(n);
+    });
+
 
 
 
@@ -221,5 +239,22 @@ $(document).ready(function(){
         $(".rising_btn_next").css("display","none");
     });
 
+    
+    var j=1;
+    $(".rising_btn_next").click(function(){
+        j++;
+        if(j==5){
+            j=1
+        }
+        $(".album_change").attr("src","img/bnA"+j+".jpg");
+        
+    });
+    $(".rising_btn_prev").click(function(){
+        j--;
+        if(j==0){
+            j=4
+        }
+        $(".album_change").attr("src","img/bnA"+j+".jpg");
+    });
     //
 });

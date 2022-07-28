@@ -167,9 +167,13 @@ a {
 }
 .top_head .top .ad {
   position: relative;
+  font-size: 11px;
+}
+.top_head .top .ad .ad_banner img {
+  width: 220px;
+  height: 65px;
 }
 .top_head .top .ad .list_button {
-  font-size: 12px;
   position: absolute;
   bottom: 2px;
   right: 0;
@@ -1451,7 +1455,7 @@ a {
   color: transparent;
   background: url(http://image.kyobobook.co.kr/ink/images/welcome/btn_nav_sprite.png) no-repeat 1px 1px;
 }
-.bg_wellcome_8 .rising_box .rising_kyobo .tap_list a:nth-of-type(1) {
+.bg_wellcome_8 .rising_box .rising_kyobo .tap_list .full {
   background-position: -19px 1px;
 }
 .bg_wellcome_8 .rising_box .rising_kyobo .rising_list li a img {

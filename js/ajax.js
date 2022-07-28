@@ -253,57 +253,7 @@ $.ajax({
 
     });
 
-// $.ajax({
-//     method: "GET",
-//     url: "https://dapi.kakao.com/v3/search/book?target=title",
-//     data: { query: "FOREVER 1 [정규 7집] [스페셜반]" },
-//     headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
-// })
-//     .done(function (msg) {
-
-//         $(".new_book_box17").append("<img src='" + msg.documents[0].thumbnail + "'/>");
-//         $(".kblist_title17").append(msg.documents[0].title);
-
-//     });
-
-// $.ajax({
-//     method: "GET",
-//     url: "https://dapi.kakao.com/v3/search/book?target=title",
-//     data: { query: "글로우" },
-//     headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
-// })
-//     .done(function (msg) {
-
-//         $(".new_book_box18").append("<img src='" + msg.documents[0].thumbnail + "'/>");
-//         $(".kblist_title18").append(msg.documents[0].title);
-
-//     });
-
-// $.ajax({
-//     method: "GET",
-//     url: "https://dapi.kakao.com/v3/search/book?target=title",
-//     data: { query: "글로우" },
-//     headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
-// })
-//     .done(function (msg) {
-
-//         $(".new_book_box19").append("<img src='" + msg.documents[0].thumbnail + "'/>");
-//         $(".kblist_title19").append(msg.documents[0].title);
-
-//     });
-
-// $.ajax({
-//     method: "GET",
-//     url: "https://dapi.kakao.com/v3/search/book?target=title",
-//     data: { query: "글로우" },
-//     headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
-// })
-//     .done(function (msg) {
-
-//         $(".new_book_box20").append("<img src='" + msg.documents[0].thumbnail + "'/>");
-//         $(".kblist_title20").append(msg.documents[0].title);
-
-//     });
+    
 
 
  //.sample_kyobo
@@ -343,5 +293,24 @@ $.ajax({
 
         $(".sample_box3").append("<img src='" + msg.documents[0].thumbnail + "'/>");
         $(".splist_title3").append(msg.documents[0].title);
+
+    });
+
+
+
+
+// box_detail_point
+$.ajax({
+    method: "GET",
+    url: "https://dapi.kakao.com/v3/search/book?target=title",
+    data: { query: "튜브" },
+    headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+})
+    .done(function (msg) {
+
+        $(".ajax_img").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+        $(".ajax_title_box").append(msg.documents[0].title);
+        $(".ajax_author").append(msg.documents[0].authors[0]);
+        $(".ajax_publisher").append(msg.documents[0].publisher);
 
     });

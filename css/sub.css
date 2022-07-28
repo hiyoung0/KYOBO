@@ -360,3 +360,10 @@ a {
   background: url(http://image.kyobobook.co.kr/ink/images/common/bul_select.gif) no-repeat right center;
   padding-right: 12px;
 }
+
+.section2 {
+  width: 950px;
+  height: 818px;
+  background-color: pink;
+  margin: 0 auto;
+}

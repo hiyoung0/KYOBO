@@ -215,11 +215,17 @@ a {
 
         .ad {
             position:relative;
+            font: {
+                size:11px;
+            }
+            .ad_banner {
+                img {
+                    width:220px;
+                    height:65px;
+                }
+            }
 
             .list_button {
-                font: {
-                    size:12px;
-                }
                 position:absolute;
                 bottom:2px;
                 right:0;
@@ -1968,7 +1974,7 @@ a {
                     color:transparent;
                     background: url(http://image.kyobobook.co.kr/ink/images/welcome/btn_nav_sprite.png) no-repeat 1px 1px;
                 }
-                a:nth-of-type(1) {
+                .full {
                     background-position: -19px 1px;
                 }
             }
