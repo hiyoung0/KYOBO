@@ -364,6 +364,7 @@ a {
 .section2 {
   width: 950px;
   height: 818px;
+  background-color: pink;
   margin: 0 auto;
 }
 .section2 .book_explain .box_detail_point {
@@ -421,11 +422,16 @@ a {
 }
 .section2 .book_explain .box_detail_point .review .review_klover {
   display: inline-block;
+  position: relative;
+  cursor: pointer;
+  margin-left: 5px;
 }
 .section2 .book_explain .box_detail_point .review .review_klover .klover {
   width: 54px;
   height: 14px;
   padding-right: 0;
+  font-size: 12px;
+  color: #777;
 }
 .section2 .book_explain .box_detail_point .review .review_klover .klover .mask_klover {
   display: inline-block;
@@ -435,10 +441,60 @@ a {
   background-image: url(http://image.kyobobook.co.kr/ink/images/common/ico_klover2.gif);
   background-repeat: no-repeat;
   background-position: 0 0;
+  vertical-align: middle;
+}
+.section2 .book_explain .box_detail_point .review .review_klover .klover em {
+  display: inline-block;
+  margin-right: 1px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  color: #4f4f4f !important;
+}
+.section2 .book_explain .box_detail_point .review .review_kv {
+  margin-right: 3px;
+  padding: 1px 4px 2px;
+  border: 1px solid #aaa;
+  font-size: 12px;
+  color: #677ee8;
+  transition: all 0.2s;
+}
+.section2 .book_explain .box_detail_point .review .review_kv:hover {
+  border-color: #777;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.section2 .book_explain .box_detail_point .rank {
+  font-size: 12px;
+  margin-top: 10px;
+}
+.section2 .book_explain .box_detail_point .rank a {
+  color: #777;
+}
+.section2 .book_explain .box_detail_point .rank a:hover {
+  text-decoration: underline;
+  color: #3c5fdf;
+}
+.section2 .book_explain .box_detail_point .rank em {
+  font-style: normal;
+  color: #f84450;
+}
+.section2 .book_explain .box_detail_point .rank .line {
+  color: #aaa;
+  margin: 0 1px;
+}
+.section2 .book_explain .box_detail_point .rank .popup_load {
+  margin-left: 10px;
 }
 .section2 .book_explain .box_detail_point .rank .popup_load .midium_btn {
-  padding-right: 25px;
+  padding: 3px 25px 4px 5px;
   background: url(http://image.kyobobook.co.kr/ink/images/common/icon_open_r.gif) no-repeat right center;
+  border: 1px solid #aaa;
+}
+.section2 .book_explain .box_detail_point .rank .popup_load .midium_btn:hover {
+  border-color: #777;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  color: #777;
+  text-decoration: none;
 }
 .section2 .book_explain .box_detail_info {
   float: left;
@@ -493,4 +549,109 @@ a {
 }
 .section2 .book_explain .box_detail_info .box_detail_position a:hover {
   border-color: #888;
+}
+.section2 .book_explain .box_detail_order {
+  width: 705px;
+  height: 555px;
+  background-color: gold;
+  float: right;
+}
+.section2 .book_explain .box_detail_order .order_price {
+  position: relative;
+  width: 490px;
+  height: 239px;
+  background-color: skyblue;
+  padding: 30px 0;
+}
+.section2 .book_explain .box_detail_order .order_price .list_price {
+  font-size: 12px;
+  color: #666;
+  line-height: 21px;
+}
+.section2 .book_explain .box_detail_order .order_price .list_price a {
+  color: #666;
+}
+.section2 .book_explain .box_detail_order .order_price .list_price .sell_price {
+  font-size: 18px;
+  color: #f84450;
+  line-height: 30px;
+}
+.section2 .book_explain .box_detail_order .order_price .list_price .sell_price strong {
+  font-size: 27px;
+  font-weight: 600;
+  display: inline-block;
+  vertical-align: -2px;
+}
+.section2 .book_explain .box_detail_order .order_price .list_price .benefit {
+  float: left;
+  display: table-cell;
+  vertical-align: top;
+}
+.section2 .book_explain .box_detail_order .order_price .list_price .inkpoint {
+  float: left;
+  margin-left: 3px;
+}
+.section2 .book_explain .box_detail_order .order_price .list_price .inkpoint .accumulation_point {
+  display: block;
+  height: 21px;
+  margin: 0 0 3px 0;
+}
+.section2 .book_explain .box_detail_order .order_price .list_price .inkpoint .accumulation_point .popup_info {
+  display: inline-block;
+  position: relative;
+}
+.section2 .book_explain .box_detail_order .order_price .list_price .inkpoint .accumulation_point .popup_info .popup_btn {
+  font-size: 11px;
+  display: inline-block;
+  border: 1px solid #d0d0d0;
+  padding: 0 4px;
+  transition: all 0.2s;
+}
+.section2 .book_explain .box_detail_order .order_price .list_price .inkpoint .accumulation_point .popup_info .popup_btn:hover {
+  border-color: #777;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.section2 .book_explain .box_detail_order .order_price .list_price .add_point {
+  float: left;
+}
+.section2 .book_explain .box_detail_order .order_price .list_price .add_point .popup_info {
+  display: inline-block;
+  position: relative;
+}
+.section2 .book_explain .box_detail_order .order_price .list_price .add_point .popup_info .popup_btn {
+  font-size: 11px;
+  display: inline-block;
+  border: 1px solid #d0d0d0;
+  padding: 0 4px;
+  transition: all 0.2s;
+}
+.section2 .book_explain .box_detail_order .order_price .list_price .add_point .popup_info .popup_btn:hover {
+  border-color: #777;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.section2 .book_explain .box_detail_order .order_price .list_price .add_point .popup_btn {
+  font-size: 11px;
+  display: inline-block;
+  border: 1px solid #d0d0d0;
+  padding: 0 4px;
+  transition: all 0.2s;
+}
+.section2 .book_explain .box_detail_order .order_price .list_price .add_point .popup_btn:hover {
+  border-color: #777;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.section2 .book_explain .box_detail_order .order_price .list_price > li:first-child {
+  margin-top: 0;
+}
+.section2 .book_explain .box_detail_order .order_price .list_price > li {
+  margin-top: 5px;
+}
+.section2 .book_explain .box_detail_order .order_price .event {
+  position: absolute;
+  top: 0;
+  left: 490px;
+  width: 194px;
+  height: 239px;
+  padding-left: 20px;
+  border-left: 1px solid #ddd;
 }

@@ -312,5 +312,7 @@ $.ajax({
         $(".ajax_title_box").append(msg.documents[0].title);
         $(".ajax_author").append(msg.documents[0].authors[0]);
         $(".ajax_publisher").append("<a href='#'>"+msg.documents[0].publisher+"</a>");
+        $(".ajax_price").append(msg.documents[0].price);
+        $(".ajax_sale_price").append(msg.documents[0].sale_price);
 
     });
