@@ -472,7 +472,7 @@ a {
 .section2 {
     width:950px;
     height:818px;
-    background-color:pink;
+    // background-color:pink;
     margin:0 auto;
 
     .book_explain {        
@@ -727,14 +727,14 @@ a {
         .box_detail_order {
             width:705px;
             height:555px;
-            background-color:gold;
+            // background-color:gold;
             float:right;
 
             .order_price {
                 position:relative;
                 width:490px;
                 height:239px;
-                background-color:skyblue;
+                // background-color:skyblue;
                 padding:30px 0;
 
                 .list_price {
@@ -801,6 +801,9 @@ a {
 
                     .add_point {
                         float:left;
+                        margin: {
+                            top:5px;
+                        }
                         .popup_info {
                             display:inline-block;
                             position:relative;
@@ -856,6 +859,241 @@ a {
                     }
                     border: {
                         left:1px solid #ddd;
+                    }
+                    h2 {
+                        font: {
+                            size:12px;
+                        }
+                        margin: {
+                            top:20px;
+                        }
+                        a {
+                            color:#5e6b9f;
+                            strong {
+                                color:#f84450;
+                            }
+                        }
+                        a:hover {
+                            text-decoration:underline;
+                            color:#3c5fdf;
+                        }
+                    }
+                    .event_list {
+                        margin: {
+                            top:18px;
+                        }
+                        li {
+                            padding:1px 0 2px 7px;
+                            font: {
+                                size:12px;
+                            }
+                            white-space:nowrap;
+                            letter-spacing:-0.05em;
+                            background: url(http://image.kyobobook.co.kr/ink/images/common/icon_squ.gif) no-repeat 0 6px;
+                            line-height:15px;
+                            a {
+                                color:#666;
+                            }
+                            a:hover {
+                                text-decoration:underline;
+                                color:#3c5fdf;
+                            }
+                        }
+                    }
+                    .btn_more {
+                        position:absolute;
+                        top:16px;
+                        right:-20px;
+                        a {
+                            font: {
+                                size:11px;
+                            }
+                            color:#868686;
+                        }
+                        a:hover {
+                            text-decoration:underline;
+                            color:#3c5fdf;
+                        }
+                    }
+                }
+            }
+
+            .delivery {
+                position:relative;
+                width:705px;
+                height:167px;
+                // background-color:bisque;
+                border: {
+                    top:1px solid #ddd;
+                }
+                padding:30px 0;
+                font: {
+                    size:12px;
+                }
+                color:#666;
+                a {
+                    color:#666;
+                }
+
+                .delivery_list {
+                    li {
+                        span {
+                            margin: {
+                                bottom:3px;
+                            }
+                            .popup_btn {
+                                font: {
+                                    size:11px;
+                                }
+                                display:inline-block;
+                                border:1px solid #d0d0d0;
+                                padding:0 4px;
+                                transition: all .2s;
+                            }
+                            .popup_btn:hover {
+                                border-color:#777;
+                                box-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+                            }
+                        }
+                        .indent {
+                            display:inline-block;
+                            vertical-align:top;
+                            em {
+                                font: {
+                                    style:normal;
+                                }
+                                color:#3a60df;
+                            }
+                        }
+                    }
+                }
+                .delivery_list>li:first-child {
+                    margin: {
+                        top:0;
+                    }
+                }
+                .delivery_list>li {
+                    margin: {
+                        top:5px;
+                    }
+                    line-height:21px;
+                }
+                .advertisement {
+                    position:absolute;
+                    top:17px;
+                    right:35px;
+                    width:130px;
+                    height:130px;
+                    .bag_ad {
+                        img {
+                            width:130px;
+                            height:130px;
+                        }
+                    }
+                    .bag_ad_close {
+                        position:absolute;
+                        width:15px;
+                        height:15px;
+                        top:0px;
+                        right:0px;
+                        img {
+                            width:15px;
+                            height:15px;
+                        }
+                    }
+                }
+            }
+
+            .order_button {
+                width:705px;
+                border: {
+                    top:1px solid #ddd;
+                }
+                padding:30px 0;
+                font: {
+                    size:12px;
+                }
+                color:#666;
+
+                .amount {
+                    label {
+                        vertical-align:baseline;
+                        margin: {
+                            right:3px;
+                        }
+                    }
+                    input {
+                        height:26px;
+                        width:40px;
+                        text-align:right;
+                        padding: {
+                            right:5px;
+                        }
+                        font: {
+                            weight:bold;
+                        }
+                        border:1px solid #c6c6c6;
+                        font: {
+                            size:12px;
+                        }
+                        color:#666;
+                    }
+                    .amount_btn {
+                        display:inline-block;
+                        vertical-align:middle;
+                        height:20px;
+                        margin-left:-1px;
+                        button {
+                            float:left;
+                            margin: {
+                                right:1px;
+                            }
+                            border:1px solid #aaa;
+                            color:#3a60df;
+                            width:20px;
+                            height:20px;
+                            padding:5px;
+                            background-color:#fff;
+                            cursor:pointer;
+                            img {
+                                vertical-align:top;
+                            }
+                        }
+                    }
+                }
+
+                .button_set {
+                    margin: {
+                        top:20px;
+                    }
+                    a {
+                        width:136px;
+                        height:46px;
+                        display:inline-block;
+                        vertical-align:middle;
+                        padding:13px 2px;
+                        font: {
+                            size:14px;
+                            weight:bold;
+                        }
+                        border:1px solid #aaa;
+                        color:#555;
+                        text-align:center;
+                        transition: all .2s;
+                    }
+                    .cart_button {
+                        background-color:#5e6b9f;
+                        border:1px solid #5e6b9f;
+                        color:#fff;
+                    }
+                    .buy_button {
+                        background-color:#7b8ed1;
+                        border:1px solid #7b8ed1;
+                        color:#fff;
+                    }
+                    a:hover {
+                        border-color:#777;
+                        box-shadow:2px 2px 4px rgb(0 0 0 / 20%);
                     }
                 }
             }

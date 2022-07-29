@@ -364,7 +364,6 @@ a {
 .section2 {
   width: 950px;
   height: 818px;
-  background-color: pink;
   margin: 0 auto;
 }
 .section2 .book_explain .box_detail_point {
@@ -553,14 +552,12 @@ a {
 .section2 .book_explain .box_detail_order {
   width: 705px;
   height: 555px;
-  background-color: gold;
   float: right;
 }
 .section2 .book_explain .box_detail_order .order_price {
   position: relative;
   width: 490px;
   height: 239px;
-  background-color: skyblue;
   padding: 30px 0;
 }
 .section2 .book_explain .box_detail_order .order_price .list_price {
@@ -613,6 +610,7 @@ a {
 }
 .section2 .book_explain .box_detail_order .order_price .list_price .add_point {
   float: left;
+  margin-top: 5px;
 }
 .section2 .book_explain .box_detail_order .order_price .list_price .add_point .popup_info {
   display: inline-block;
@@ -654,4 +652,183 @@ a {
   height: 239px;
   padding-left: 20px;
   border-left: 1px solid #ddd;
+}
+.section2 .book_explain .box_detail_order .order_price .event h2 {
+  font-size: 12px;
+  margin-top: 20px;
+}
+.section2 .book_explain .box_detail_order .order_price .event h2 a {
+  color: #5e6b9f;
+}
+.section2 .book_explain .box_detail_order .order_price .event h2 a strong {
+  color: #f84450;
+}
+.section2 .book_explain .box_detail_order .order_price .event h2 a:hover {
+  text-decoration: underline;
+  color: #3c5fdf;
+}
+.section2 .book_explain .box_detail_order .order_price .event .event_list {
+  margin-top: 18px;
+}
+.section2 .book_explain .box_detail_order .order_price .event .event_list li {
+  padding: 1px 0 2px 7px;
+  font-size: 12px;
+  white-space: nowrap;
+  letter-spacing: -0.05em;
+  background: url(http://image.kyobobook.co.kr/ink/images/common/icon_squ.gif) no-repeat 0 6px;
+  line-height: 15px;
+}
+.section2 .book_explain .box_detail_order .order_price .event .event_list li a {
+  color: #666;
+}
+.section2 .book_explain .box_detail_order .order_price .event .event_list li a:hover {
+  text-decoration: underline;
+  color: #3c5fdf;
+}
+.section2 .book_explain .box_detail_order .order_price .event .btn_more {
+  position: absolute;
+  top: 16px;
+  right: -20px;
+}
+.section2 .book_explain .box_detail_order .order_price .event .btn_more a {
+  font-size: 11px;
+  color: #868686;
+}
+.section2 .book_explain .box_detail_order .order_price .event .btn_more a:hover {
+  text-decoration: underline;
+  color: #3c5fdf;
+}
+.section2 .book_explain .box_detail_order .delivery {
+  position: relative;
+  width: 705px;
+  height: 167px;
+  border-top: 1px solid #ddd;
+  padding: 30px 0;
+  font-size: 12px;
+  color: #666;
+}
+.section2 .book_explain .box_detail_order .delivery a {
+  color: #666;
+}
+.section2 .book_explain .box_detail_order .delivery .delivery_list li span {
+  margin-bottom: 3px;
+}
+.section2 .book_explain .box_detail_order .delivery .delivery_list li span .popup_btn {
+  font-size: 11px;
+  display: inline-block;
+  border: 1px solid #d0d0d0;
+  padding: 0 4px;
+  transition: all 0.2s;
+}
+.section2 .book_explain .box_detail_order .delivery .delivery_list li span .popup_btn:hover {
+  border-color: #777;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.section2 .book_explain .box_detail_order .delivery .delivery_list li .indent {
+  display: inline-block;
+  vertical-align: top;
+}
+.section2 .book_explain .box_detail_order .delivery .delivery_list li .indent em {
+  font-style: normal;
+  color: #3a60df;
+}
+.section2 .book_explain .box_detail_order .delivery .delivery_list > li:first-child {
+  margin-top: 0;
+}
+.section2 .book_explain .box_detail_order .delivery .delivery_list > li {
+  margin-top: 5px;
+  line-height: 21px;
+}
+.section2 .book_explain .box_detail_order .delivery .advertisement {
+  position: absolute;
+  top: 17px;
+  right: 35px;
+  width: 130px;
+  height: 130px;
+}
+.section2 .book_explain .box_detail_order .delivery .advertisement .bag_ad img {
+  width: 130px;
+  height: 130px;
+}
+.section2 .book_explain .box_detail_order .delivery .advertisement .bag_ad_close {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 0px;
+  right: 0px;
+}
+.section2 .book_explain .box_detail_order .delivery .advertisement .bag_ad_close img {
+  width: 15px;
+  height: 15px;
+}
+.section2 .book_explain .box_detail_order .order_button {
+  width: 705px;
+  border-top: 1px solid #ddd;
+  padding: 30px 0;
+  font-size: 12px;
+  color: #666;
+}
+.section2 .book_explain .box_detail_order .order_button .amount label {
+  vertical-align: baseline;
+  margin-right: 3px;
+}
+.section2 .book_explain .box_detail_order .order_button .amount input {
+  height: 26px;
+  width: 40px;
+  text-align: right;
+  padding-right: 5px;
+  font-weight: bold;
+  border: 1px solid #c6c6c6;
+  font-size: 12px;
+  color: #666;
+}
+.section2 .book_explain .box_detail_order .order_button .amount .amount_btn {
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+  margin-left: -1px;
+}
+.section2 .book_explain .box_detail_order .order_button .amount .amount_btn button {
+  float: left;
+  margin-right: 1px;
+  border: 1px solid #aaa;
+  color: #3a60df;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.section2 .book_explain .box_detail_order .order_button .amount .amount_btn button img {
+  vertical-align: top;
+}
+.section2 .book_explain .box_detail_order .order_button .button_set {
+  margin-top: 20px;
+}
+.section2 .book_explain .box_detail_order .order_button .button_set a {
+  width: 136px;
+  height: 46px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 13px 2px;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid #aaa;
+  color: #555;
+  text-align: center;
+  transition: all 0.2s;
+}
+.section2 .book_explain .box_detail_order .order_button .button_set .cart_button {
+  background-color: #5e6b9f;
+  border: 1px solid #5e6b9f;
+  color: #fff;
+}
+.section2 .book_explain .box_detail_order .order_button .button_set .buy_button {
+  background-color: #7b8ed1;
+  border: 1px solid #7b8ed1;
+  color: #fff;
+}
+.section2 .book_explain .box_detail_order .order_button .button_set a:hover {
+  border-color: #777;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
