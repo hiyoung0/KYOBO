@@ -832,3 +832,137 @@ a {
   border-color: #777;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
+
+.section3 {
+  width: 950px;
+  margin: 0 auto;
+}
+.section3 .tab_detail_content {
+  width: 750px;
+  height: 36px;
+  background-color: #fff;
+}
+.section3 .tab_detail_content li {
+  float: left;
+  width: 20%;
+  height: 36px;
+  text-align: center;
+}
+.section3 .tab_detail_content li a {
+  display: block;
+  height: 36px;
+  padding-top: 10px;
+  border: 1px solid #d7d7d7;
+  margin-right: -1px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #666;
+  line-height: 1.2em;
+}
+.section3 .tab_detail_content li a:hover {
+  background-color: #f8f8f8;
+  color: #222;
+}
+.section3 .tab_detail_content .on a {
+  height: 37px;
+  border-bottom-width: 0;
+  color: #3c5fdf;
+}
+.section3 .tab_detail_content .on a:hover {
+  background-color: #fff;
+  color: #3c5fdf;
+}
+.section3 .box_detail_content {
+  width: 750px;
+  padding: 30px 40px 60px 20px;
+}
+.section3 .box_detail_content .align_right {
+  text-align: right;
+}
+.section3 .box_detail_content .align_right a {
+  font-size: 11px;
+  font-family: "dotum", sans-serif;
+  color: #666;
+  display: inline-block;
+  vertical-align: baseline;
+  border: 1px solid #d0d0d0;
+  padding: 3px 4px 2px;
+  transition: all 0.2s;
+}
+.section3 .box_detail_content .align_right a:hover {
+  border-color: #a0a0a0;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.section3 .box_detail_content .sub_explain {
+  font-size: 12px;
+  font-family: dotum, sans-serif;
+  line-height: 1.2em;
+}
+.section3 .box_detail_content .sub_explain h3 {
+  color: #000;
+  font-size: 16px;
+  font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Dotum", "Sans-Serif";
+  padding-top: 4px;
+  margin-top: 40px;
+  line-height: 18px;
+}
+.section3 .box_detail_content .sub_explain .part h5 {
+  font-size: 12px;
+  color: #777;
+  margin: 25px 0 7px;
+}
+.section3 .box_detail_content .sub_explain .part p {
+  margin: 0 0 2px;
+  font-size: 12px;
+}
+.section3 .box_detail_content .sub_explain .part p a {
+  color: #777;
+}
+.section3 .box_detail_content .sub_explain .part p a:hover {
+  text-decoration: underline;
+  color: #3c5fdf;
+}
+.section3 .box_detail_content .sub_explain .thema h5 {
+  font-size: 12px;
+  color: #777;
+  margin: 25px 0 7px;
+}
+.section3 .box_detail_content .sub_explain .thema p a {
+  color: #666;
+  display: inline-block;
+  height: 30px;
+  padding: 0 0 0 12px;
+  margin: 0 3px 5px 0;
+  background: url(http://image.kyobobook.co.kr/ink/images/thisbook/bg_tags_bg01.gif) no-repeat left top;
+}
+.section3 .box_detail_content .sub_explain .thema p a span {
+  display: inline-block;
+  height: 30px;
+  padding: 0 12px 8px 0;
+  background: url(http://image.kyobobook.co.kr/ink/images/thisbook/bg_tags_bg02.gif) no-repeat right top;
+}
+.section3 .box_detail_content .sub_explain .thema p a span em {
+  display: inline-block;
+  padding: 5px 0;
+  font-style: normal;
+}
+.section3 .box_detail_content .sub_explain h4 {
+  margin: 40px 0 7px;
+  font-size: 12px;
+  color: #555;
+  line-height: 1.5;
+}
+.section3 .box_detail_content .sub_explain .br_part {
+  margin-top: 10px;
+  line-height: 22px;
+  color: #666;
+  font-size: 12px;
+}
+.section3 .box_detail_content .detail_img h3 {
+  color: #000;
+  font-size: 16px;
+  font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Dotum", "Sans-Serif";
+  padding-top: 4px;
+  margin-top: 40px;
+  line-height: 18px;
+}

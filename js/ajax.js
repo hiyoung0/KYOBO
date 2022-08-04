@@ -316,3 +316,10 @@ $.ajax({
         $(".ajax_sale_price").append(msg.documents[0].sale_price);
 
     });
+
+
+$(function () {
+    $.get("./sub_txt/txt1.txt", function (data) {
+        $(".sub_explain").html(data);
+    })
+});
