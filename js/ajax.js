@@ -299,7 +299,7 @@ $.ajax({
 
 
 
-// box_detail_point
+// sub.thml - box_detail_point
 $.ajax({
     method: "GET",
     url: "https://dapi.kakao.com/v3/search/book?target=title",
@@ -323,3 +323,166 @@ $(function () {
         $(".sub_explain").html(data);
     })
 });
+
+
+
+
+// sub.html - list_detail_aside
+$.ajax({
+    method: "GET",
+    url: "https://dapi.kakao.com/v3/search/book?target=title",
+    data: { query: "하얼빈" },
+    headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+})
+    .done(function (msg) {
+
+        $(".ajax_cover1").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+        $(".ajax_title1").append(msg.documents[0].title);
+        $(".ajax_author1").append(msg.documents[0].authors[0]);
+        $(".ajax_price1").append(msg.documents[0].sale_price);
+
+    });
+
+
+$.ajax({
+    method: "GET",
+    url: "https://dapi.kakao.com/v3/search/book?target=title",
+    data: { query: "불편한 편의점" },
+    headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+})
+    .done(function (msg) {
+
+        $(".ajax_cover2").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+        $(".ajax_title2").append(msg.documents[0].title);
+        $(".ajax_author2").append(msg.documents[0].authors[0]);
+        $(".ajax_price2").append(msg.documents[0].sale_price);
+
+    });
+
+
+$.ajax({
+    method: "GET",
+    url: "https://dapi.kakao.com/v3/search/book?target=title",
+    data: { query: "파친코" },
+    headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+})
+    .done(function (msg) {
+
+        $(".ajax_cover3").append("<img src='" + msg.documents[1].thumbnail + "'/>");
+        $(".ajax_title3").append(msg.documents[1].title);
+        $(".ajax_author3").append(msg.documents[1].authors[0]);
+        $(".ajax_price3").append(msg.documents[1].sale_price);
+
+    });
+
+
+$.ajax({
+    method: "GET",
+    url: "https://dapi.kakao.com/v3/search/book?target=title",
+    data: { query: "불편한 편의점 2" },
+    headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+})
+    .done(function (msg) {
+
+        $(".ajax_cover4").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+        $(".ajax_title4").append(msg.documents[0].title);
+        $(".ajax_author4").append(msg.documents[0].authors[0]);
+        $(".ajax_price4").append(msg.documents[0].sale_price);
+
+    });
+
+
+$.ajax({
+    method: "GET",
+    url: "https://dapi.kakao.com/v3/search/book?target=title",
+    data: { query: "세상의 마지막" },
+    headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+})
+    .done(function (msg) {
+
+        $(".ajax_cover5").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+        $(".ajax_title5").append(msg.documents[0].title);
+        $(".ajax_author5").append(msg.documents[0].authors[0]);
+        $(".ajax_price5").append(msg.documents[0].sale_price);
+
+    });
+
+
+$.ajax({
+    method: "GET",
+    url: "https://dapi.kakao.com/v3/search/book?target=title",
+    data: { query: "파친코" },
+    headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+})
+    .done(function (msg) {
+
+        $(".ajax_cover6").append("<img src='" + msg.documents[1].thumbnail + "'/>");
+        $(".ajax_title6").append(msg.documents[1].title);
+        $(".ajax_author6").append(msg.documents[1].authors[0]);
+        $(".ajax_price6").append(msg.documents[1].sale_price);
+
+    });
+
+
+$.ajax({
+    method: "GET",
+    url: "https://dapi.kakao.com/v3/search/book?target=title",
+    data: { query: "하얼빈" },
+    headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+})
+    .done(function (msg) {
+
+        $(".ajax_cover7").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+        $(".ajax_title7").append(msg.documents[0].title);
+        $(".ajax_author7").append(msg.documents[0].authors[0]);
+        $(".ajax_price7").append(msg.documents[0].sale_price);
+
+    });
+
+
+$.ajax({
+    method: "GET",
+    url: "https://dapi.kakao.com/v3/search/book?target=title",
+    data: { query: "불편한 편의점 2" },
+    headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+})
+    .done(function (msg) {
+
+        $(".ajax_cover8").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+        $(".ajax_title8").append(msg.documents[0].title);
+        $(".ajax_author8").append(msg.documents[0].authors[0]);
+        $(".ajax_price8").append(msg.documents[0].sale_price);
+
+    });
+
+
+$.ajax({
+    method: "GET",
+    url: "https://dapi.kakao.com/v3/search/book?target=title",
+    data: { query: "여기는 커스터드" },
+    headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+})
+    .done(function (msg) {
+
+        $(".ajax_cover9").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+        $(".ajax_title9").append(msg.documents[0].title);
+        $(".ajax_author9").append(msg.documents[0].authors[0]);
+        $(".ajax_price9").append(msg.documents[0].sale_price);
+
+    });
+
+
+$.ajax({
+    method: "GET",
+    url: "https://dapi.kakao.com/v3/search/book?target=title",
+    data: { query: "다섯번째 산" },
+    headers: { Authorization: "KakaoAK 9a32b66e83b5960bf00283d931393441" }
+})
+    .done(function (msg) {
+
+        $(".ajax_cover10").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+        $(".ajax_title10").append(msg.documents[0].title);
+        $(".ajax_author10").append(msg.documents[0].authors[0]);
+        $(".ajax_price10").append(msg.documents[0].sale_price);
+
+    });
